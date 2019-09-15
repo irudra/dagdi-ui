@@ -1,11 +1,11 @@
 {
-  "name": "argon-design-system-react",
+  "name": "Dagdi UI",
   "version": "1.0.0",
-  "description": "React version of Argon Design System by Creative Tim",
+  "description": "Application dagdi predication system",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-design-system-react.git"
+    "url": "git+https://github.com/irudra/dagdi-ui.git"
   },
   "keywords": [
     "react",
@@ -22,12 +22,12 @@
     "argon-design-system-react",
     "design-system-react"
   ],
-  "author": "Creative Tim",
+  "author": "Appbuddy Technology",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
+    "url": "https://github.com/irudra/dagdi-ui/issues"
   },
-  "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
+  "homepage": "https://github.com/irudra",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
