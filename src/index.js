@@ -23,7 +23,7 @@ import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss";
 
-import Index from "views/Index.jsx";
+import Index from "views/Home/home.jsx";
 import Landing from "views/dagdi/Landing.jsx";
 import Login from "views/pages/Login.jsx";
 import Profile from "views/pages/Profile.jsx";
