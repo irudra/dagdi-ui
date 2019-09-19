@@ -48,6 +48,8 @@ import Download from "../IndexSections/Download.jsx";
 import AwesomeFeatures from "views/dagdi/AwesomeFeatures.jsx";
 import OurCustomers from "views/dagdi/OurCustomers.jsx";
 import OurTeam from "views/dagdi/OurTeam.jsx";
+import Marketing from "views/dagdi/Marketing.jsx";
+import ContactUs from "views/dagdi/ContactUs.jsx";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -66,7 +68,8 @@ class Index extends React.Component {
           <Carousel />
           <OurCustomers />
           <OurTeam />
-          <Login />
+          <Marketing />
+          <ContactUs />
           <Download />
         </main>
         <CardsFooter />
