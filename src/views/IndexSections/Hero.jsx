@@ -19,7 +19,7 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Hero extends React.Component {
   render() {
@@ -41,30 +41,30 @@ class Hero extends React.Component {
               <span className="span-50" />
               <span className="span-100" />
             </div>
-            <Container className="shape-container d-flex align-items-center py-lg">
-              <div className="container shape-container d-flex align-items-center py-lg">
+            <Container className="shape-container d-flex align-items-center py-4">
+              <div className="container shape-container d-flex align-items-center py-4">
                 <div className="col px-0">
                   <div className="row align-items-center justify-content-center">
                     <div className="col-lg-6 text-center">
-                      <img src={require("assets/img/brand/dagdi_logo.png")} style={{width: 200}} className="img-fluid"/>
-                        <p className="lead text-white">An intelligent System to solve day-to-day life problems of Rural
+                      <img src={require("assets/img/brand/dagdi_logo.png")} style={{ width: 200 }} className="img-fluid" />
+                      <p className="lead text-white">An intelligent System to solve day-to-day life problems of Rural
                           Areas</p>
-                        <div className="btn-wrapper mt-5">
-                          <Link to="landing-page" fragment="prediction" className="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
-                  <span className="btn-inner--icon"><i className="ni ni-cloud-download-95"/></span>
-                  <span className="btn-inner--text">Dagdi prediction System</span>
-                </Link>
-              </div>
-              <div class="mt-5">
-                <small class="text-white font-weight-bold mb-0 mr-2">*proudly created by</small>
-                <a href="https://github.com/appBuddyin" target="_blank" class="text-light">
-                          <img src={require("assets/img/brand/appbuddylogo.png")} style={{ height: "28px" }}/>
+                      <div className="btn-wrapper mt-5">
+                        <Link to="landing-page" fragment="prediction" className="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
+                          <span className="btn-inner--icon"><i className="ni ni-cloud-download-95" /></span>
+                          <span className="btn-inner--text">Dagdi prediction System</span>
+                        </Link>
+                      </div>
+                      <div class="mt-5">
+                        <small class="text-white font-weight-bold mb-0 mr-2">*proudly created by</small>
+                        <a href="https://github.com/appBuddyin" target="_blank" class="text-light">
+                          <img src={require("assets/img/brand/appbuddylogo.png")} style={{ height: "28px" }} />
                         </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
             </Container>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
