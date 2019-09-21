@@ -149,6 +149,9 @@ class DagdiNavbar extends React.Component {
                       <DropdownItem to="/register-page" tag={Link}>
                         Register
                       </DropdownItem>
+                      <DropdownItem to="/prediction-page" tag={Link}>
+                        Prediction
+                      </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
