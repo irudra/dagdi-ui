@@ -11,9 +11,8 @@ class OurTeam extends React.Component{
                     <Col lg="8">
                         <h2 className="display-3">The amazing Team</h2>
                         <p className="lead text-muted">
-                            According to the National Oceanic and Atmospheric
-                            Administration, Ted, Scambos, NSIDClead scentist, puts the
-                            potentially record maximum.
+                            We have an amazing team which uses their technical expertise to create this
+                            life changing experience of rural area.
                         </p>
                     </Col>
                 </Row>
@@ -24,11 +23,11 @@ class OurTeam extends React.Component{
                                 alt="..."
                                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                 src={require("assets/img/theme/team-1-800x800.jpg")}
-                                style={{width: "200px"}}
+                                style={{width: "200px", height: "200px"}}
                             />
                             <div className="pt-4 text-center">
                                 <h5 className="title">
-                                    <span className="d-block mb-1">Ryan Tompson</span>
+                                    <span className="d-block mb-1">Nigam Chauhan</span>
                                     <small className="h6 text-muted">Web Developer</small>
                                 </h5>
                                 <div className="mt-3">
@@ -65,14 +64,14 @@ class OurTeam extends React.Component{
                             <img
                                 alt="..."
                                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                src={require("assets/img/theme/team-2-800x800.jpg")}
-                                style={{width: "200px"}}
+                                src={require("assets/img/theme/param.png")}
+                                style={{width: "200px", height: "200px"}}
                             />
                             <div className="pt-4 text-center">
                                 <h5 className="title">
-                                    <span className="d-block mb-1">Romina Hadid</span>
+                                    <span className="d-block mb-1">Parmanand Gaur</span>
                                     <small className="h6 text-muted">
-                                        Marketing Strategist
+                                        Director
                                     </small>
                                 </h5>
                                 <div className="mt-3">
@@ -110,12 +109,12 @@ class OurTeam extends React.Component{
                                 alt="..."
                                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                 src={require("assets/img/theme/team-3-800x800.jpg")}
-                                style={{width: "200px"}}
+                                style={{width: "200px", height: "200px"}}
                             />
                             <div className="pt-4 text-center">
                                 <h5 className="title">
-                                    <span className="d-block mb-1">Alexander Smith</span>
-                                    <small className="h6 text-muted">UI/UX Designer</small>
+                                    <span className="d-block mb-1">Harish Singh Parihar</span>
+                                    <small className="h6 text-muted">Technical Consultant</small>
                                 </h5>
                                 <div className="mt-3">
                                     <Button
@@ -151,13 +150,13 @@ class OurTeam extends React.Component{
                             <img
                                 alt="..."
                                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                src={require("assets/img/theme/team-4-800x800.jpg")}
-                                style={{width: "200px"}}
+                                src={require("assets/img/theme/hemant.png")}
+                                style={{width: "200px", height: "200px"}}
                             />
                             <div className="pt-4 text-center">
                                 <h5 className="title">
-                                    <span className="d-block mb-1">John Doe</span>
-                                    <small className="h6 text-muted">Founder and CEO</small>
+                                    <span className="d-block mb-1">Hemant Gaur</span>
+                                    <small className="h6 text-muted">Founder<br/> Senior Developer</small>
                                 </h5>
                                 <div className="mt-3">
                                     <Button
