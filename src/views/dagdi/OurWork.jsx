@@ -53,11 +53,11 @@ class OurWork extends React.Component {
                                     chances of capital return from the field.
                                 </p>
                                 <p>
-                                    We use scientific knowledge of soil of the field, different types of corps and the
-                                    yield based on corp type, past market analysis of prizes of different corps
+                                    We use scientific knowledge of soil in the field, different types of corps and the
+                                    yield based on corp type, past market analysis in prices of different corps
                                     and production effort, terrain types and various other factor to predict a suitable corps for the
                                     field.
-                                    We uses different kind of important data, provides best prediction which provides better return for the farmer.
+                                    We use variety of data, which enables us to predict, which provides better return for the farmer.
                                 </p>
                                 <p>
                                     This will result in better distribution of corps in the market and overall balanced market
