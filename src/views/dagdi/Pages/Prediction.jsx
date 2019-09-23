@@ -1,24 +1,22 @@
 import React from "react";
-
 // reactstrap components
 import {
   Badge,
   Card,
-  CardHeader,
   CardFooter,
-  DropdownMenu,
+  CardHeader,
+  Container,
   DropdownItem,
-  UncontrolledDropdown,
+  DropdownMenu,
   DropdownToggle,
   Media,
   Pagination,
   PaginationItem,
   PaginationLink,
   Progress,
-  Table,
-  Container,
   Row,
-  Col,Button, 
+  Table,
+  UncontrolledDropdown,
   UncontrolledTooltip
 } from "reactstrap";
 // core components
@@ -56,7 +54,7 @@ class Prediction extends React.Component {
                   <thead className="thead-light">
                     <tr>
                       <th scope="col">Project</th>
-                      <th class="text-center" scope="col">Budget</th>
+                      <th className="text-center" scope="col">Budget</th>
                       <th scope="col">Status</th>
                      
                     

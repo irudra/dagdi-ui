@@ -18,7 +18,6 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
-
 // reactstrap components
 import {
     Badge,
@@ -26,25 +25,23 @@ import {
     Card,
     CardBody,
     CardImg,
+    Col,
+    Container,
     FormGroup,
     Input,
+    InputGroup,
     InputGroupAddon,
     InputGroupText,
-    InputGroup,
-    Container,
-    Row,
-    Col
+    Row
 } from "reactstrap";
-
 // core components
 import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
 import CardsFooter from "components/Footers/CardsFooter.jsx";
-
 // index page sections
 import Download from "../../IndexSections/Download.jsx";
 import CorpsCarousel from "../CorpsCarousel";
 import LocationSearch from "../prediction/LocationSearch";
-import { Link, animateScroll as scroll } from "react-scroll";
+import {Link} from "react-scroll";
 
 class Landing extends React.Component {
     state = {};
@@ -136,8 +133,10 @@ class Landing extends React.Component {
                                                         Location based
                                                     </h6>
                                                     <p className="description mt-3">
-                                                        We use location data to predict corps based on climate, soil type,
-                                                        water availablity and tarrian details like hilly, plain or desert type.
+                                                        We use location data to predict corps based on climate, soil
+                                                        type,
+                                                        water availablity and tarrian details like hilly, plain or
+                                                        desert type.
                                                     </p>
                                                     <div>
                                                         <Badge color="primary" pill className="mr-1">
@@ -176,7 +175,8 @@ class Landing extends React.Component {
                                                     </h6>
                                                     <p className="description mt-3">
                                                         As the market demand is a driving factor of prices for corps,
-                                                        So using market demand to predict corps will maximize the return for the farmer.
+                                                        So using market demand to predict corps will maximize the return
+                                                        for the farmer.
                                                     </p>
                                                     <div>
                                                         <Badge color="success" pill className="mr-1">
@@ -212,7 +212,8 @@ class Landing extends React.Component {
                                                     </h6>
                                                     <p className="description mt-3">
                                                         Individual preferences also influence the return of the corps,
-                                                        Some corps can provide a better return but it requires a lot of effort,
+                                                        Some corps can provide a better return but it requires a lot of
+                                                        effort,
                                                         machinery or investment.
                                                     </p>
                                                     <div>

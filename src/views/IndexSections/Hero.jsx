@@ -46,7 +46,7 @@ class Hero extends React.Component {
                 <div className="col px-0">
                   <div className="row align-items-center justify-content-center">
                     <div className="col-lg-6 text-center">
-                      <img src={require("assets/img/brand/dagdi_logo.png")} style={{ width: 200 }} className="img-fluid" />
+                      <img src={require("assets/img/brand/dagdi_logo.png")} style={{ width: 200 }} className="img-fluid" alt={"Dagdi"}/>
                       <p className="lead text-white">An intelligent System to solve day-to-day life problems of Rural
                           Areas</p>
                       <div className="btn-wrapper mt-5">
@@ -57,8 +57,8 @@ class Hero extends React.Component {
                       </div>
                       <div class="mt-5">
                         <small class="text-white font-weight-bold mb-0 mr-2">*proudly created by</small>
-                        <a href="https://github.com/appBuddyin" target="_blank" class="text-light">
-                          <img src={require("assets/img/brand/appbuddylogo.png")} style={{ height: "28px" }} />
+                        <a href="https://github.com/appBuddyin" class="text-light">
+                          <img src={require("assets/img/brand/appbuddylogo.png")} style={{ height: "28px" }} alt={"Appbuddy Technology"}/>
                         </a>
                       </div>
                     </div>

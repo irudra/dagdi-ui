@@ -1,13 +1,7 @@
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
-
 // reactstrap components
-import {
-    Button,
-    Row,
-    Col
-} from "reactstrap";
+import {Button, Col, Row} from "reactstrap";
 
 class LocationSearch extends React.Component {
     state = {};
