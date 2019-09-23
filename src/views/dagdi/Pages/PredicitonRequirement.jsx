@@ -16,6 +16,7 @@ var steps = [
     // this step will be validated to false
     { stepName: "Second", component: Marketing },
     // this step will never be reachable because of the seconds isValidated() steps function that will always return false
+    // tis is test
     { stepName: "Third", component: Marketing }
   ];
 
