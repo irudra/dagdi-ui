@@ -19,7 +19,7 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-import { Link } from "react-router-dom";
+  import { Link } from "react-router-dom";
 
 class Hero extends React.Component {
   render() {
