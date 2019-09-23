@@ -17,9 +17,6 @@
 */
 import React from "react";
 
-// reactstrap components
-import { Container, Row } from "reactstrap";
-
 // core components
 import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
 import CardsFooter from "components/Footers/CardsFooter.jsx";

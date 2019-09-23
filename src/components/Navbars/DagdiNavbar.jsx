@@ -152,6 +152,9 @@ class DagdiNavbar extends React.Component {
                       <DropdownItem to="/prediction-page" tag={Link}>
                         Prediction
                       </DropdownItem>
+                      <DropdownItem to="/prediction-requirement" tag={Link}>
+                        Prediction requirement
+                      </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
