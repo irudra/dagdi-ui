@@ -1,7 +1,5 @@
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
-import Prediction from 'views/dagdi/Pages/Prediction';
 
 // reactstrap components
 import {

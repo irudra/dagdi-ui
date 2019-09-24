@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Checkbox from './Checkbox';
 
 const items = [
   'One',
