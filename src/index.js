@@ -24,16 +24,16 @@ ReactDOM.render(
         exact
         render={props => <Landing {...props} />}
       />
-       <Route path="/" exact render={props => <Index {...props} />} />
+      <Route path="/" exact render={props => <Index {...props} />} />
       <Route
         path="/prediction-page"
         exact
         render={props => <Prediction {...props} />}
       />
       <Route
-      path="/prediction-requirement"
-      exact
-      render={props => <PredictionRequirement {...props}/>}
+        path="/prediction-requirement"
+        exact
+        render={props => <PredictionRequirement {...props} />}
       />
       <Route path="/login-page" exact render={props => <Login {...props} />} />
       <Route

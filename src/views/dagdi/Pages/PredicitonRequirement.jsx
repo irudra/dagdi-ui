@@ -15,7 +15,7 @@ import PredictionCarousel from "views/IndexSections/PredictionCarousel.jsx";
 
 var steps = [
   // this step hasn't got a isValidated() function, so it will be considered to be true
-  { stepName: "Start", component: PredictionCarousel },
+  { stepName: "Start", stepIcon: "icon-settings-gear-63", component: PredictionCarousel },
 
   { stepName: "First", component: Marketing },
   // this step will be validated to false
