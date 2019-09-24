@@ -2,6 +2,7 @@ import React from "react";
 import CardsFooter from "components/Footers/CardsFooter.jsx";
 import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
 import ReactWizard from "react-bootstrap-wizard";
+import "react-bootstrap-wizard/dist/react-wizard.css"
 
 import {
     Col,
@@ -10,14 +11,19 @@ import {
 } from "reactstrap";
 import Marketing from "views/dagdi/Marketing.jsx";
 
+
 var steps = [
     // this step hasn't got a isValidated() function, so it will be considered to be true
+    { stepName: "Start", component: Marketing },
+
     { stepName: "First", component: Marketing },
     // this step will be validated to false
     { stepName: "Second", component: Marketing },
     // this step will never be reachable because of the seconds isValidated() steps function that will always return false
     // tis is test
-    { stepName: "Third", component: Marketing }
+    { stepName: "Third", component: Marketing },
+
+    { stepName: "Finish", component: Marketing }
   ];
 
 class PredictionRequirement extends React.Component {
@@ -35,7 +41,7 @@ class PredictionRequirement extends React.Component {
 
                 <Container fluid style={{ marginTop: "15px" }}>
         <Row>
-          <Col xs={12} md={6} className="mr-auto ml-auto">
+          <Col xs={12} md={9} className="mr-auto ml-auto">
             <ReactWizard
               steps={steps}
               navSteps
@@ -43,7 +49,7 @@ class PredictionRequirement extends React.Component {
               description="This will help you split a complicated flow or a complicated form in multiple steps."
               headerTextCenter
               validate
-              color="primary"
+              color="green"
               finishButtonClick={this.finishButtonClick}
             />
           </Col>

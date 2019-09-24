@@ -48,6 +48,7 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "classnames": "2.2.6",
     "headroom.js": "0.9.4",
     "moment": "2.24.0",
@@ -61,7 +62,7 @@
     "react-router-dom": "5.0.0",
     "react-scripts": "3.0.0",
     "react-scroll": "^1.7.14",
-    "reactstrap": "8.0.0"
+    "reactstrap": "^8.0.0"
   },
   "devDependencies": {
     "@types/googlemaps": "3.30.19",
