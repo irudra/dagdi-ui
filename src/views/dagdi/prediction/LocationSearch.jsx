@@ -1,6 +1,5 @@
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
 
 // reactstrap components
 import {
@@ -8,7 +7,7 @@ import {
     Row,
     Col
 } from "reactstrap";
-
+import { Link } from "react-router-dom";
 class LocationSearch extends React.Component {
     state = {};
 
@@ -39,12 +38,10 @@ class LocationSearch extends React.Component {
                                     </Col>
                                     <Col lg={"3"}>
                                         <div className="input-group input-group-append">
-                                            <Button
-                                                className="form-control"
-                                                color="primary"
-                                                href="#pablo"
-                                                onClick={e => e.preventDefault()}
-                                            >Find your corps</Button>
+                                        <Button><Link 
+                                            to={'/prediction-page'}
+                                            >Find your corps</Link></Button>
+                                           
                                         </div>
                                     </Col>
                                 </Row>

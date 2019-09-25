@@ -13,6 +13,7 @@ import Login from "views/pages/Login.jsx";
 import Profile from "views/pages/Profile.jsx";
 import Register from "views/pages/Register.jsx";
 import Prediction from "views/dagdi/Pages/Prediction.jsx";
+import PredictionRequirement from "views/dagdi/Pages/PredicitonRequirement.jsx";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -21,13 +22,18 @@ ReactDOM.render(
       <Route
         path="/landing-page"
         exact
-        render={props => <Landing {...props} />}x
+        render={props => <Landing {...props} />}
       />
-       <Route path="/" exact render={props => <Index {...props} />} />
+      <Route path="/" exact render={props => <Index {...props} />} />
       <Route
         path="/prediction-page"
         exact
-        render={props => <Prediction {...props} />}x
+        render={props => <Prediction {...props} />}
+      />
+      <Route
+        path="/prediction-requirement"
+        exact
+        render={props => <PredictionRequirement {...props} />}
       />
       <Route path="/login-page" exact render={props => <Login {...props} />} />
       <Route

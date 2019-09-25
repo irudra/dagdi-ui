@@ -41,10 +41,10 @@ import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
 import CardsFooter from "components/Footers/CardsFooter.jsx";
 
 // index page sections
-import Download from "../../IndexSections/Download.jsx";
-import CorpsCarousel from "../CorpsCarousel";
+import Download from "views/IndexSections/Download.jsx";
+import CorpsCarousel from "views/dagdi/CorpsCarousel";
 import LocationSearch from "../prediction/LocationSearch";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class Landing extends React.Component {
     state = {};

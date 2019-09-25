@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Headroom from "headroom.js";
 // reactstrap components
 import {
-  Button,
   UncontrolledCollapse,
   DropdownMenu,
   DropdownItem,
@@ -151,6 +150,9 @@ class DagdiNavbar extends React.Component {
                       </DropdownItem>
                       <DropdownItem to="/prediction-page" tag={Link}>
                         Prediction
+                      </DropdownItem>
+                      <DropdownItem to="/prediction-requirement" tag={Link}>
+                        Prediction requirement
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
