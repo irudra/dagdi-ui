@@ -11,13 +11,13 @@ import {
 } from "reactstrap";
 import Marketing from "views/dagdi/Marketing.jsx";
 import PredictionCarousel from "views/IndexSections/PredictionCarousel.jsx";
-
+import TerrainDetails from "views/IndexSections/TerrainDetails.jsx";
 
 var steps = [
   // this step hasn't got a isValidated() function, so it will be considered to be true
   { stepName: "Start", stepIcon: "icon-settings-gear-63", component: PredictionCarousel },
 
-  { stepName: "First", component: Marketing },
+  { stepName: "First", component: TerrainDetails },
   // this step will be validated to false
   { stepName: "Second", component: Marketing },
   // this step will never be reachable because of the seconds isValidated() steps function that will always return false
