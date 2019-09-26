@@ -10,8 +10,8 @@ import {
   Container,
 } from "reactstrap";
 import Marketing from "views/dagdi/Marketing.jsx";
-import PredictionCarousel from "views/IndexSections/PredictionCarousel.jsx";
-import TerrainDetails from "views/IndexSections/TerrainDetails.jsx";
+import PredictionCarousel from "views/dagdi/prediction/PredictionCarousel.jsx";
+import TerrainDetails from "views/dagdi/prediction/TerrainDetails.jsx";
 
 var steps = [
   // this step hasn't got a isValidated() function, so it will be considered to be true
@@ -47,7 +47,7 @@ class PredictionRequirement extends React.Component {
               <ReactWizard
                 steps={steps}
                 navSteps
-                title="react-wizard"
+                title="Please Provide Your Field Details"
                 headerTextCenter
                 validate
                 color="green"
