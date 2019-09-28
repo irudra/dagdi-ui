@@ -19,14 +19,14 @@ var steps = [
   // this step hasn't got a isValidated() function, so it will be considered to be true
   { stepName: "Start", stepIcon: "icon-settings-gear-63", component: PredictionCarousel },
 
-  { stepName: "First", component: TerrainDetails },
+  { stepName: "Terrain Details", component: TerrainDetails },
   // this step will be validated to false
-  { stepName: "Second", component: Preferences },
+  { stepName: "User Preferences", component: Preferences },
   // this step will never be reachable because of the seconds isValidated() steps function that will always return false
   // tis is test
-  { stepName: "Third", component: MarketDetails },
+  { stepName: "Market Details", component: MarketDetails },
 
-  { stepName: "Finish", component: Marketing }
+  { stepName: "Result", component: Marketing }
 ];
 
 class PredictionRequirement extends React.Component {
