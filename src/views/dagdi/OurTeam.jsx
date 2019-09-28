@@ -22,7 +22,7 @@ class OurTeam extends React.Component{
                             <img
                                 alt="..."
                                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                src={require("assets/img/theme/team-1-800x800.jpg")}
+                                src={require("assets/img/theme/Nigam.jpg")}
                                 style={{width: "200px", height: "200px"}}
                             />
                             <div className="pt-4 text-center">

@@ -16,10 +16,11 @@
 
 */
 import React from "react";
-// reactstrap components
+
 // core components
 import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
 import CardsFooter from "components/Footers/CardsFooter.jsx";
+
 // index page sections
 import Hero from "../IndexSections/Hero.jsx";
 
@@ -32,31 +33,30 @@ import ContactUs from "../dagdi/ContactUs.jsx";
 import CorpsCarousel from "../dagdi/CorpsCarousel";
 
 class Index extends React.Component {
-    componentDidMount() {
-        document.documentElement.scrollTop = 0;
-        document.scrollingElement.scrollTop = 0;
-        this.refs.main.scrollTop = 0;
-    }
-
-    render() {
-        return (
-            <>
-                <DagdiNavbar/>
-                <main ref="main">
-
-                    <Hero/>
-                    <OurMission/>
-                    <CorpsCarousel/>
-                    <OurWork/>
-                    <OurTeam/>
-                    <Marketing/>
-                    <ContactUs/>
-                    <Download/>
-                </main>
-                <CardsFooter/>
-            </>
-        );
-    }
+  componentDidMount() {
+    document.documentElement.scrollTop = 0;
+    document.scrollingElement.scrollTop = 0;
+    this.refs.main.scrollTop = 0;
+  }
+  render() {
+    return (
+      <>
+        <DagdiNavbar />
+        <main ref="main">
+         
+          <Hero />
+          <OurMission/>
+          <CorpsCarousel />
+          <OurWork />
+          <OurTeam />
+          <Marketing />
+          <ContactUs />
+          <Download />
+        </main>
+        <CardsFooter />
+      </>
+    );
+  }
 }
 
 export default Index;
