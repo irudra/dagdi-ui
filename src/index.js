@@ -14,6 +14,7 @@ import Profile from "views/pages/Profile.jsx";
 import Register from "views/pages/Register.jsx";
 import Prediction from "views/dagdi/Pages/Prediction.jsx";
 import PredictionRequirement from "views/dagdi/Pages/PredicitonRequirement.jsx";
+import CorpsPage from "views/dagdi/Pages/CorpsPage.jsx";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -45,6 +46,11 @@ ReactDOM.render(
         path="/register-page"
         exact
         render={props => <Register {...props} />}
+      />
+      <Route
+        path="/corps-page"
+        exact
+        render={props => <CorpsPage {...props} />}
       />
       <Redirect to="/" />
     </Switch>
