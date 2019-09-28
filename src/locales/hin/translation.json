@@ -1,0 +1,13 @@
+{
+  "Introduction": "प्रस्तावना",
+  "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop":
+  "एक अंतर्राष्ट्रीयकरण - ढांचा है जो आपके उत्पाद को वेब से मोबाइल और डेस्कटॉप पर स्थानांतरित करने का एक संपूर्ण समाधान प्रदान करता है",
+  "Plugins to detect the user language":
+  "उपयोगकर्ता भाषा का पता लगाने के लिए प्लगइन्स",
+  "Plugins to load translations": "अनुवाद लोड करने के लिए प्लगइन्स",
+  "Optionally cache the translations": "वैकल्पिक रूप से अनुवाद कैश करें",
+  "Advantages": "लाभ",
+  "hero.DagdiSystem": "ग्रामीण क्षेत्रों की दैनिक जीवन की समस्याओं को हल करने के लिए एक बुद्धिमान प्रणाली",
+  "Flexibility to use other packages":
+  "अन्य पैकेजों का उपयोग करने के लिए लचीलापन"
+}
