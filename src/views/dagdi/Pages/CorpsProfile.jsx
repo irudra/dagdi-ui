@@ -14,6 +14,7 @@ export default function UserPage(props) {
     useEffect(() => {
         //example for the html call
         const getUser = async () => {
+            //The url can be created dynamically
             const { data } = await axios(`https://api.github.com/users/appbuddyin`)
 
             setUser(data)
