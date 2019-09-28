@@ -13,6 +13,7 @@ import Profile from "views/pages/Profile.jsx";
 import Register from "views/pages/Register.jsx";
 import Prediction from "views/dagdi/Pages/Prediction.jsx";
 import PredictionRequirement from "views/dagdi/Pages/PredicitonRequirement.jsx";
+import CorpsProfile from "./views/dagdi/Pages/CorpsProfile";
 import i18n from "./i18n";
 
 ReactDOM.render(
@@ -41,6 +42,11 @@ ReactDOM.render(
                     path="/profile-page"
                     exact
                     render={props => <Profile {...props} />}
+                />
+                <Route
+                    path="/corps-page/:id"
+                    exact
+                    render={props => <CorpsProfile {...props} />}
                 />
                 <Route
                     path="/register-page"
