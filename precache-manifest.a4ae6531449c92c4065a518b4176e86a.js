@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0483fc1d48f243c3aafbf1a0fc7fe22",
+    "revision": "1f4453f480092dd65b04fc9966f7356a",
     "url": "/dagdi-ui/index.html"
   },
   {
-    "revision": "7ee4dc38c5bec70caeb5",
+    "revision": "503f67061ba1ad767e49",
     "url": "/dagdi-ui/static/css/2.83c65ca0.chunk.css"
   },
   {
-    "revision": "de8c802bad6d80e8a00b",
+    "revision": "3a22b4cae207b021702b",
     "url": "/dagdi-ui/static/css/main.c2ff35bd.chunk.css"
   },
   {
-    "revision": "7ee4dc38c5bec70caeb5",
-    "url": "/dagdi-ui/static/js/2.047b7a96.chunk.js"
+    "revision": "503f67061ba1ad767e49",
+    "url": "/dagdi-ui/static/js/2.3c3abfc1.chunk.js"
   },
   {
-    "revision": "de8c802bad6d80e8a00b",
-    "url": "/dagdi-ui/static/js/main.cbc362e6.chunk.js"
+    "revision": "3a22b4cae207b021702b",
+    "url": "/dagdi-ui/static/js/main.3a36c423.chunk.js"
   },
   {
     "revision": "5d50a719e7b42726e12d",
