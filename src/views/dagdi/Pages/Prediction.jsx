@@ -1,7 +1,6 @@
-import CardsFooter from "components/Footers/CardsFooter.jsx";
-// core components
-import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
+
 import React from "react";
+import {Link} from "react-router-dom";
 // reactstrap components
 import { Card, CardFooter, CardHeader, Container, Pagination, PaginationItem, PaginationLink, Row, Table} from "reactstrap";
 class Prediction extends React.Component {
@@ -12,14 +11,7 @@ class Prediction extends React.Component {
   render() {
     return (
       <>
-      <DagdiNavbar />
-      <section className="section section-shaped ">
-                            <div className="shape shape-style-1 shape-primary">
-                                <span/>
-                                <span/>
-                                <span/>
-                            </div>
-                        </section>
+     
      
 
         <Container className="mb-xl" fluid>
@@ -43,13 +35,18 @@ class Prediction extends React.Component {
                   <tbody>
                   <tr>
 		      <td class="w-25">
-			      <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-3.jpg" class="img-fluid img-thumbnail" alt="Sheep"/>
+          <img
+                            alt="tomato"
+                            className="img-fluid img-thumbnail"
+                            src={require("assets/img/theme/CorpTomato.jpg")}
+                          />
+			      
 		      </td>
 		      <td>Domestic investor wealth so ared by Rs 2.11 lakh crore in morning trade on Friday as equity market rallied following a slew of 
             economy-boosting announcements by finance minister Nirmala Sitharaman. The BSE Sensex advanced over 1,300 points to a high of 37,421.70.
             </td>
           <td>
-              <tr><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></tr>
+              <tr><Link to='/corps-page/irudra'><button type="button" class="btn btn-primary">Details</button></Link></tr>
              <tr> <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button></tr>
              <tr> <button type="button" class="btn btn-primary"><i class="fas fa-edit"></i></button></tr>
              <tr> <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button></tr>
@@ -139,7 +136,7 @@ class Prediction extends React.Component {
           </Row>
         
         </Container>
-        <CardsFooter />
+      
       </>
     );
   }

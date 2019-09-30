@@ -162,6 +162,9 @@ changeLanguage(e, lang){
                       <DropdownItem to="/prediction-requirement" tag={Link}>
                         Prediction requirement
                       </DropdownItem>
+                      <DropdownItem to="/corps-page" tag={Link}>
+                        CorpsPage
+                      </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
