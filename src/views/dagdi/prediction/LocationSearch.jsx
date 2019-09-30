@@ -39,7 +39,7 @@ class LocationSearch extends React.Component {
                                     <Col lg={"3"}>
                                         <div className="input-group input-group-append">
                                         <Button><Link 
-                                            to={'/prediction-page'}
+                                            to={'/prediction-requirement'}
                                             >Find your corps</Link></Button>
                                            
                                         </div>

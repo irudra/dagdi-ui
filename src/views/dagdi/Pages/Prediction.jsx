@@ -1,6 +1,4 @@
-import CardsFooter from "components/Footers/CardsFooter.jsx";
-// core components
-import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
+
 import React from "react";
 // reactstrap components
 import { Card, CardFooter, CardHeader, Container, Pagination, PaginationItem, PaginationLink, Row, Table} from "reactstrap";
@@ -12,14 +10,7 @@ class Prediction extends React.Component {
   render() {
     return (
       <>
-      <DagdiNavbar />
-      <section className="section section-shaped ">
-                            <div className="shape shape-style-1 shape-primary">
-                                <span/>
-                                <span/>
-                                <span/>
-                            </div>
-                        </section>
+     
      
 
         <Container className="mb-xl" fluid>
@@ -139,7 +130,7 @@ class Prediction extends React.Component {
           </Row>
         
         </Container>
-        <CardsFooter />
+      
       </>
     );
   }
