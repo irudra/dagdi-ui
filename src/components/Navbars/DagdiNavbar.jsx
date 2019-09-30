@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
+import i18n from "i18next";
 // reactstrap components
 import {
   UncontrolledCollapse,
@@ -22,12 +23,19 @@ import {
 } from "reactstrap";
 
 class DagdiNavbar extends React.Component {
+
+changeLanguage(e, lang){
+  e.preventDefault()
+  i18n.changeLanguage(lang);
+}
+
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
     headroom.init();
   }
   render() {
+    const { i18n } = this.props;
     return (
       <>
         <header className="header-global">
@@ -220,6 +228,31 @@ class DagdiNavbar extends React.Component {
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Github
                       </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip112445449">
+                      Star us on Github
+                    </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                        className="nav-link-icon"
+                        href="https://github.com/appBuddyin"
+                        id="tooltip184698705"
+                        target="_blank"
+                        onClick={e => this.changeLanguage(e, "en")}
+                    >English</NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip184698705">
+                      अपनी भाषा को हिंदी में बदलें
+                    </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                        className="nav-link-icon"
+                        href="https://github.com/appBuddyin"
+                        id="tooltip112445449"
+                        target="_blank"
+                        onClick={e => this.changeLanguage(e, "hin")}
+                    >हिंदी
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
                       Star us on Github

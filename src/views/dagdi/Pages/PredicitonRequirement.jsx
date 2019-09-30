@@ -9,11 +9,12 @@ import {
   Row,
   Container,
 } from "reactstrap";
-import Marketing from "views/dagdi/Marketing.jsx";
+
 import PredictionCarousel from "views/dagdi/prediction/PredictionCarousel.jsx";
 import TerrainDetails from "views/dagdi/prediction/TerrainDetails.jsx";
 import Preferences from "views/dagdi/prediction/Preferences.jsx";
 import MarketDetails from "views/dagdi/prediction/MarketDetails.jsx";
+import Prediction from "./Prediction";
 
 var steps = [
   // this step hasn't got a isValidated() function, so it will be considered to be true
@@ -26,7 +27,7 @@ var steps = [
   // tis is test
   { stepName: "Third", component: MarketDetails },
 
-  { stepName: "Finish", component: Marketing }
+  { stepName: "Finish", component: Prediction }
 ];
 
 class PredictionRequirement extends React.Component {

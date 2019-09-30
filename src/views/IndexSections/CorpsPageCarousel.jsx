@@ -1,16 +1,16 @@
 import React from "react";
 // reactstrap components
-import { Col, Container, Row, UncontrolledCarousel, Card, CardBody } from "reactstrap";
+import { Col, Container, Row, UncontrolledCarousel, Card, CardBody} from "reactstrap";
 
 const items = [
     {
-        src: require("assets/img/theme/img-1-1200x1000.jpg"),
+        src: require("assets/img/theme/tomoto.jpg"),
         altText: "",
         caption: "",
         header: ""
     },
     {
-        src: require("assets/img/theme/img-2-1200x1000.jpg"),
+        src: require("assets/img/theme/tomato.jpg"),
         altText: "",
         caption: "",
         header: ""
@@ -18,13 +18,15 @@ const items = [
 ];
 
 class CorpsPageCarousel extends React.Component {
+    
     render() {
         return (
             <>
-                <section className="section ml-xl mr-xl">
-                
+
+                <section className="section bg-gradient-orange">
+                <h1 className="text-center mb-sm display-3 text-white">Health Benefits</h1>
                         <Row className="justify-content-start align-items-start">
-                            
+                           
                             <Col xs={12} md={4} className="mb-lg-0 ml-xl" lg="4">
                                 <Container >
                                 <div className="rounded shadow overflow-hidden ">
@@ -40,79 +42,51 @@ class CorpsPageCarousel extends React.Component {
                                                 
                                                 <div className="pl-4">
                                                     <h5 className="title text-success">
-                                                        Awesome Support
+                                                        Name
                                                     </h5>
                                                     <p>
                                                         The Arctic Ocean freezes every winter and much of
                                                         the sea-ice then thaws every summer, and that
                                                         process will continue whatever.
                                                     </p>
-                                                    <a
-                                                        className="text-success"
-                                                        href="#pablo"
-                                                        onClick={e => e.preventDefault()}
-                                                    >
-                                                        Learn more
-                                                    </a>
+                                                    
                                                 </div>
                                             </div>
-                                        </CardBody>
-                                    </Card>
 
-                                    <Card className="shadow shadow-lg--hover mt-1">
-                                        <CardBody>
                                             <div className="d-flex px-3">
                                                 
                                                 <div className="pl-4">
                                                     <h5 className="title text-success">
-                                                        Awesome Support
+                                                        Ideal field
                                                     </h5>
                                                     <p>
                                                         The Arctic Ocean freezes every winter and much of
                                                         the sea-ice then thaws every summer, and that
                                                         process will continue whatever.
                                                     </p>
-                                                    <a
-                                                        className="text-success"
-                                                        href="#pablo"
-                                                        onClick={e => e.preventDefault()}
-                                                    >
-                                                        Learn more
-                                                    </a>
+                                                    
                                                 </div>
                                             </div>
-                                        </CardBody>
-                                    </Card>
-
-                                    <Card className="shadow shadow-lg--hover mt-1">
-                                        <CardBody>
                                             <div className="d-flex px-3">
                                                 
                                                 <div className="pl-4">
                                                     <h5 className="title text-success">
-                                                        Awesome Support
+                                                       Element requirement
                                                     </h5>
                                                     <p>
                                                         The Arctic Ocean freezes every winter and much of
                                                         the sea-ice then thaws every summer, and that
                                                         process will continue whatever.
                                                     </p>
-                                                    <a
-                                                        className="text-success"
-                                                        href="#pablo"
-                                                        onClick={e => e.preventDefault()}
-                                                    >
-                                                        Learn more
-                                                    </a>
+                                                   
                                                 </div>
                                             </div>
                                         </CardBody>
-                                    </Card>
+                                    </Card>   
+                                  
                 </Container>
                             </Col>
-                         
                         </Row>
-                       
                     {/* SVG separator */}
                     <div className="separator separator-bottom separator-skew">
                         <svg
@@ -127,9 +101,47 @@ class CorpsPageCarousel extends React.Component {
                         </svg>
                     </div>
                 </section>
+                <section className="section">
+                <h1 className="text-center mb-sm display-3">Current Market Analysis</h1>
+                <Card >
+                                        <CardBody>
+                                            <div className="d-flex px-3">
+                                                
+                                                <div className="pl-4">
+                                                    <h5 className="title text-success">
+                                                        Name
+                                                    </h5>
+                                                    <p>
+                                                        The Arctic Ocean freezes every winter and much of
+                                                        the sea-ice then thaws every summer, and that
+                                                        process will continue whatever.
+                                                    </p>
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div className="d-flex px-3">
+                                                
+                                                <div className="pl-4">
+                                                    <h5 className="title text-success">
+                                                        Ideal field
+                                                    </h5>
+                                                    <p>
+                                                        The Arctic Ocean freezes every winter and much of
+                                                        the sea-ice then thaws every summer, and that
+                                                        process will continue whatever.
+                                                    </p>
+                                                    
+                                                </div>
+                                            </div>
+                                            
+                                        </CardBody>
+                                    </Card>
+
+
+                </section>
             </>
         );
     }
-
 }
 export default CorpsPageCarousel;

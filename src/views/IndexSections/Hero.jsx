@@ -20,8 +20,39 @@ import React from "react";
 // reactstrap components
 import { Container } from "reactstrap";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
+function MainSection() {
+  const { t } = useTranslation();
+
+  return <Container className="shape-container d-flex align-items-center py-4">
+    <div className="container shape-container d-flex align-items-center py-4">
+      <div className="col px-0">
+        <div className="row align-items-center justify-content-center">
+          <div className="col-lg-6 text-center">
+            <img src={require("assets/img/brand/dagdi_logo.png")} style={{ width: 200 }} className="img-fluid" alt={"Dagdi"}/>
+            <p className="lead text-white">{t("hero.DagdiSystem")}</p>
+            <div className="btn-wrapper mt-5">
+              <Link to="landing-page" fragment="prediction" className="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
+                <span className="btn-inner--icon"><i className="ni ni-cloud-download-95" /></span>
+                <span className="btn-inner--text">Dagdi prediction System</span>
+              </Link>
+            </div>
+            <div class="mt-5">
+              <small class="text-white font-weight-bold mb-0 mr-2">*proudly created by</small>
+              <a href="https://github.com/appBuddyin" class="text-light">
+                <img src={require("assets/img/brand/appbuddylogo.png")} style={{ height: "28px" }} alt={"Appbuddy Technology"}/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Container>;
+}
 
 class Hero extends React.Component {
+
   render() {
     return (
       <>
@@ -41,31 +72,7 @@ class Hero extends React.Component {
               <span className="span-50" />
               <span className="span-100" />
             </div>
-            <Container className="shape-container d-flex align-items-center py-4">
-              <div className="container shape-container d-flex align-items-center py-4">
-                <div className="col px-0">
-                  <div className="row align-items-center justify-content-center">
-                    <div className="col-lg-6 text-center">
-                      <img src={require("assets/img/brand/dagdi_logo.png")} style={{ width: 200 }} className="img-fluid" alt="" />
-                      <p className="lead text-white">An intelligent System to solve day-to-day life problems of Rural
-                          Areas</p>
-                      <div className="btn-wrapper mt-5">
-                        <Link to="landing-page" fragment="prediction" className="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
-                          <span className="btn-inner--icon"><i className="ni ni-cloud-download-95" /></span>
-                          <span className="btn-inner--text">Dagdi prediction System</span>
-                        </Link>
-                      </div>
-                      <div class="mt-5">
-                        <small class="text-white font-weight-bold mb-0 mr-2">*proudly created by</small>
-                        <a href="https://github.com/appBuddyin" target="_blank" rel="noopener noreferrer" class="text-light">
-                          <img src={require("assets/img/brand/appbuddylogo.png")} style={{ height: "28px" }} alt="" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Container>
+            <MainSection/>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
