@@ -1,10 +1,15 @@
 {
-  "Introduction": "Introduction sdasfas",
+  "Introduction": "Introduction",
   "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop": "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop",
   "Plugins to detect the user language": "Plugins to detect the user language",
   "Plugins to load translations": "Plugins to load translations",
   "Optionally cache the translations": "Optionally cache the translations",
   "Advantages": "Advantages",
   "hero.DagdiSystem": "An intelligent System to solve day-to-day life problems of Rural Areas",
-  "Flexibility to use other packages": "Flexibility to use other packages"
+  "Flexibility to use other packages": "Flexibility to use other packages",
+  "Our Mission": "Our Mission",
+  "OurMission.Description": "We want to transform the way we currently doing farming. The farmers are not provided with enough options while picking up any corp for their field. They generally use traditional corps and inefficient way. We are trying to provide farmers a better option by predicting a corp based on multiple factor. So they can maximize their return from their labour or field.",
+  "More option to the farmers while picking any corp": "More option to the farmers while picking any corp",
+  "Better return for farmers": "Better return for farmers",
+  "A happy Rural world": "A happy Rural world"
 }
