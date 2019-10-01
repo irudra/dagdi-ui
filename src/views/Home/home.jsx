@@ -22,7 +22,7 @@ import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
 import CardsFooter from "components/Footers/CardsFooter.jsx";
 
 // index page sections
-import Hero from "../IndexSections/Hero.jsx";
+import Hero from "./Hero.jsx";
 
 import Download from "../IndexSections/Download.jsx";
 import OurMission from "../dagdi/OurMission.jsx";

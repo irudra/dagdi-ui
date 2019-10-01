@@ -35,7 +35,7 @@ function MainSection() {
             <div className="btn-wrapper mt-5">
               <Link to="landing-page" fragment="prediction" className="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
                 <span className="btn-inner--icon"><i className="ni ni-cloud-download-95" /></span>
-                <span className="btn-inner--text">Dagdi prediction System</span>
+                <span className="btn-inner--text">{t("Dagdi prediction System")}</span>
               </Link>
             </div>
             <div class="mt-5">
