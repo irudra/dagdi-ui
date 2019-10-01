@@ -11,5 +11,13 @@
   "OurMission.Description": "We want to transform the way we currently doing farming. The farmers are not provided with enough options while picking up any corp for their field. They generally use traditional corps and inefficient way. We are trying to provide farmers a better option by predicting a corp based on multiple factor. So they can maximize their return from their labour or field.",
   "More option to the farmers while picking any corp": "More option to the farmers while picking any corp",
   "Better return for farmers": "Better return for farmers",
-  "A happy Rural world": "A happy Rural world"
+  "A happy Rural world": "A happy Rural world",
+  "Why we matter": "Why we matter",
+  "Why we matter description": "The traditional corps does not provide a better return for the farmers. The decision to use a corp is mainly based the generational or area but not with scientific knowledge and market analysis. This result people using undistributed corps, which results in very low prizes for some of the popular corps and very high prizes for some other corps. This results in a bad situation for farmers and also for the consumers. No knowledge of upcoming weather situation and its effect on the corps results in losses for the farmer due to damaged fields, corps and disease.",
+  "Find more details about it": "Find more details about it",
+  "How we work": "How we work",
+  "How we work heading": "Dagdi® uses state of the art algorithms to predict the corps to maximize the chances of capital return from the field.",
+  "How we work description1": "We use scientific knowledge of soil in the field, different types of corps and the yield based on corp type, past market analysis in prices of different corps and production effort, terrain types and various other factor to predict a suitable corps for the field. We use variety of data, which enables us to predict, which provides better return for the farmer.",
+  "How we work description2": "This will result in better distribution of corps in the market and overall balanced market for the producer and consumer of the farming goods.",
+  "How we work more details": "Find out detailed report about how we can produce a better result."
 }
