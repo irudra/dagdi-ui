@@ -1,19 +1,15 @@
-
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 // reactstrap components
-import { Card, CardFooter, CardHeader, Container, Pagination, PaginationItem, PaginationLink, Row, Table} from "reactstrap";
+import { Card, CardFooter, CardHeader, Container, Pagination, PaginationItem, PaginationLink, Row, Table } from "reactstrap";
 class Prediction extends React.Component {
-  state={
-    name:"name"
+  state = {
+    name: "name"
   };
- 
+
   render() {
     return (
       <>
-     
-     
-
         <Container className="mb-xl" fluid>
           {/* Table */}
           <Row>
@@ -28,55 +24,55 @@ class Prediction extends React.Component {
                       <th scope="col">Project</th>
                       <th class="text-center" scope="col">Budget</th>
                       <th scope="col">Status</th>
-                     
-                    
+
+
                     </tr>
                   </thead>
                   <tbody>
-                  <tr>
-		      <td class="w-25">
-          <img
-                            alt="tomato"
-                            className="img-fluid img-thumbnail"
-                            src={require("assets/img/theme/CorpTomato.jpg")}
-                          />
-			      
-		      </td>
-		      <td>Domestic investor wealth so ared by Rs 2.11 lakh crore in morning trade on Friday as equity market rallied following a slew of 
-            economy-boosting announcements by finance minister Nirmala Sitharaman. The BSE Sensex advanced over 1,300 points to a high of 37,421.70.
-            </td>
-          <td>
-              <tr><Link to='/corps-page/irudra'><button type="button" class="btn btn-primary">Details</button></Link></tr>
-             <tr> <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button></tr>
-             <tr> <button type="button" class="btn btn-primary"><i class="fas fa-edit"></i></button></tr>
-             <tr> <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button></tr>
-            </td>
-		   
-		    </tr>
+                    <tr>
+                      <td class="w-25">
+                        <img
+                          alt="tomato"
+                          className="img-fluid img-thumbnail"
+                          src={require("assets/img/theme/CorpTomato.jpg")}
+                        />
 
-        <tr>
-		      
-		      <td class="w-25">
-			      <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg" class="img-fluid img-thumbnail" alt="Sheep"/>
-		      </td>
-		      <td>Bootstrap Grid 4 Tutorial and Examples</td>
-		      <td>Cristina</td>
-          
-		    
-		    </tr>
-                   
-        <tr>
-		      
-		      <td class="w-25">
-			      <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg" class="img-fluid img-thumbnail" alt="Sheep"/>
-		      </td>
-		      <td>Bootstrap Grid 4 Tutorial and Examples</td>
-		      <td>Cristina</td>
-          
-		    
-		    </tr>
-                           
-                   
+                      </td>
+                      <td>Domestic investor wealth so ared by Rs 2.11 lakh crore in morning trade on Friday as equity market rallied following a slew of
+                        economy-boosting announcements by finance minister Nirmala Sitharaman. The BSE Sensex advanced over 1,300 points to a high of 37,421.70.
+            </td>
+                      <td>
+                        <tr><Link to='/corps-page/irudra'><button type="button" class="btn btn-primary">Details</button></Link></tr>
+                        <tr> <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button></tr>
+                        <tr> <button type="button" class="btn btn-primary"><i class="fas fa-edit"></i></button></tr>
+                        <tr> <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button></tr>
+                      </td>
+
+                    </tr>
+
+                    <tr>
+
+                      <td class="w-25">
+                        <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg" class="img-fluid img-thumbnail" alt="Sheep" />
+                      </td>
+                      <td>Bootstrap Grid 4 Tutorial and Examples</td>
+                      <td>Cristina</td>
+
+
+                    </tr>
+
+                    <tr>
+
+                      <td class="w-25">
+                        <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg" class="img-fluid img-thumbnail" alt="Sheep" />
+                      </td>
+                      <td>Bootstrap Grid 4 Tutorial and Examples</td>
+                      <td>Cristina</td>
+
+
+                    </tr>
+
+
                   </tbody>
                 </Table>
                 <CardFooter className="py-4">
@@ -134,9 +130,9 @@ class Prediction extends React.Component {
               </Card>
             </div>
           </Row>
-        
+
         </Container>
-      
+
       </>
     );
   }
