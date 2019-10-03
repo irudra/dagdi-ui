@@ -30,7 +30,7 @@ var steps = [
   { stepName: "Result", component: Prediction }
 ];
 
-class PredictionRequirement extends React.Component {
+class PredictionRequirement extends React.Component { 
   render() {
     return (
       <>

@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import { InputGroup } from 'reactstrap';
 import { useTranslation } from "react-i18next";
+import LocationSearch from "./LocationSearch";
 function MarketDetailsFunction() {
-
-  const state = {
-    cSelected: []
-  };
-
  const onRadioBtnClick = (rSelected) => {
     this.setState({ rSelected });
   };
@@ -74,7 +70,10 @@ class MarketDetails extends Component {
 
   render() {
     return (
+      <>
+      <LocationSearch/>
       <MarketDetailsFunction/>
+      </>
     );
   }
 }

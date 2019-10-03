@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { InputGroup } from 'reactstrap';
 import { useTranslation } from "react-i18next";
+import LocationSearch from "./LocationSearch";
 
 function PreferencesFunction() {
 
-  const state = {
-    cSelected: []
-  };
+ 
 
  const onRadioBtnClick = (rSelected) => {
     this.setState({ rSelected });
@@ -75,7 +74,10 @@ class Preferences extends Component {
 
   render() {
     return (
+      <>
+      <LocationSearch/>
      <PreferencesFunction/> 
+     </>
     );
   }
 }

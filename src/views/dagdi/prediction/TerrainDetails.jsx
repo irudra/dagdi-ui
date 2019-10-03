@@ -1,13 +1,9 @@
-import React, { useState, Component } from "react";
+import React, { Component } from "react";
 import { InputGroup } from 'reactstrap';
 import { useTranslation } from "react-i18next";
+import LocationSearch from "./LocationSearch";
 
 function PredictionFunction() {
-
-  const state = {
-    cSelected: []
-  };
-
  const onRadioBtnClick = (rSelected) => {
     this.setState({ rSelected });
   };
@@ -73,7 +69,10 @@ class TerrainDetails extends Component {
 
   render() {
     return (
+      <>
+      <LocationSearch/>
       <PredictionFunction/>
+      </>
     );
   }
 }
