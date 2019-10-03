@@ -1,5 +1,8 @@
 import React from "react";
 import { Col, Button, Row, Container, Card } from "reactstrap";
+import myData from "views/dagdi/Pages/corps.json";
+
+
 class CorpProfile extends React.Component {
     render() {
         return (
@@ -57,15 +60,15 @@ class CorpProfile extends React.Component {
                                         <Col className="order-lg-1" lg="4">
                                             <div className="card-profile-stats d-flex justify-content-center">
                                                 <div>
-                                                    <span className="heading">22</span>
+                                                    <span className="heading">{myData.friend_count}</span>
                                                     <span className="description">Friends</span>
                                                 </div>
                                                 <div>
-                                                    <span className="heading">10</span>
+                                                    <span className="heading">{myData.photos_count}</span>
                                                     <span className="description">Photos</span>
                                                 </div>
                                                 <div>
-                                                    <span className="heading">89</span>
+                                                    <span className="heading">{myData.comment_count}</span>
                                                     <span className="description">Comments</span>
                                                 </div>
                                             </div>
@@ -73,31 +76,27 @@ class CorpProfile extends React.Component {
                                     </Row>
                                     <div className="text-center mt-5">
                                         <h3>
-                                            Jessica Jones{" "}
-                                            <span className="font-weight-light">, 27</span>
+                                        {myData.user_name}{" "}
+                                            <span className="font-weight-light">{myData.user_age}</span>
                                         </h3>
                                         <div className="h6 font-weight-300">
                                             <i className="ni location_pin mr-2" />
-                                            Bucharest, Romania
+                                            {myData.user_location}
                     </div>
                                         <div className="h6 mt-4">
                                             <i className="ni business_briefcase-24 mr-2" />
-                                            Solution Manager - Creative Tim Officer
+                                            {myData.user_profession}
                     </div>
                                         <div>
                                             <i className="ni education_hat mr-2" />
-                                            University of Computer Science
+                                            {myData.user_education}
                     </div>
                                     </div>
                                     <div className="mt-5 py-5 border-top text-center">
                                         <Row className="justify-content-center">
                                             <Col lg="9">
                                                 <p>
-                                                    An artist of considerable range, Ryan — the name taken
-                                                    by Melbourne-raised, Brooklyn-based Nick Murphy —
-                                                    writes, performs and records all of his own music,
-                                                    giving it a warm, intimate feel with a solid groove
-                                                    structure. An artist of considerable range.
+                                                    {myData.user_description}
                         </p>
                                                 <a href="#pablo" onClick={e => e.preventDefault()}>
                                                     Show more

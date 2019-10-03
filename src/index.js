@@ -14,6 +14,7 @@ import Register from "views/pages/Register.jsx";
 import Prediction from "views/dagdi/Pages/Prediction.jsx";
 import PredictionRequirement from "views/dagdi/Pages/PredicitonRequirement.jsx";
 import CorpsProfile from "./views/dagdi/Pages/CorpsProfile";
+import CorpProfile from "./views/IndexSections/CorpProfile.jsx";
 import i18n from "./i18n";
 
 ReactDOM.render(
@@ -52,6 +53,11 @@ ReactDOM.render(
                     path="/register-page"
                     exact
                     render={props => <Register {...props} />}
+                />
+                <Route
+                    path="/corpProfile-page"
+                    exact
+                    render={props => <CorpProfile {...props} />}
                 />
                 <Redirect to="/"/>
             </Switch>

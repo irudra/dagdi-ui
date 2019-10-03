@@ -29,5 +29,14 @@
   "followers": 0,
   "following": 3,
   "created_at": "2015-11-23T15:27:09Z",
-  "updated_at": "2019-09-28T12:25:08Z"
+  "updated_at": "2019-09-28T12:25:08Z",
+  "user_name":"Nigam",
+  "user_age":", 21",
+  "user_location":"Noida",
+  "user_profession":"Web developer",
+  "user_education":"Teerthanker Mahaveer",
+  "user_description":"An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+  "friend_count":"13",
+  "photos_count":"23",
+  "comment_count":"32"
 }
