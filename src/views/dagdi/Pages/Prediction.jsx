@@ -1,10 +1,13 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import myData from "views/dagdi/Pages/corps.json";
 // reactstrap components
 import { Card, CardFooter, CardHeader, Container, Pagination, PaginationItem, PaginationLink, Row, Table } from "reactstrap";
 function PredictionFucntion() {
   const { t } = useTranslation();
+
+  const id2 = "tomatoID";
   return <Container className="mb-xl" fluid>
   {/* Table */}
   <Row>
@@ -27,11 +30,11 @@ function PredictionFucntion() {
                 <img
                   alt="tomato"
                   className="img-fluid img-thumbnail"
-                  src={require("assets/img/theme/CorpTomato.jpg")}
+                  src={myData[id2].tomatoImage}
                 />
               </td>
               <td>
-                {t("table row1 description")}
+                {myData[id2].tomatoDetails}
     </td>
               <td>
                 <tr><Link to='/corps-page/irudra'><button type="button" class="btn btn-primary">Details</button></Link></tr>
@@ -42,16 +45,16 @@ function PredictionFucntion() {
             </tr>
             <tr>
               <td class="w-25">
-                <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg" class="img-fluid img-thumbnail" alt="Sheep" />
+                <img src={myData[id2].tomatoImage} class="img-fluid img-thumbnail" alt="Sheep" />
               </td>
-              <td>{t("table row2 description")}</td>
+              <td>{myData[id2].tomatoDetails}</td>
               <td>Cristina</td>
             </tr>
             <tr>
               <td class="w-25">
-                <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg" class="img-fluid img-thumbnail" alt="Sheep" />
+                <img src={myData[id2].tomatoImage} class="img-fluid img-thumbnail" alt="Sheep" />
               </td>
-              <td>{t("table row3 description")}</td>
+              <td>{myData[id2].tomatoDetails}</td>
               <td>Cristina</td>
             </tr>
           </tbody>

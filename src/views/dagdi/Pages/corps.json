@@ -1,4 +1,4 @@
-{
+{ "PotatoID":{
   "login": "irudra",
   "id": 15983266,
   "node_id": "MDQ6VXNlcjE1OTgzMjY2",
@@ -39,4 +39,12 @@
   "friend_count":"13",
   "photos_count":"23",
   "comment_count":"32"
+},
+
+"tomatoID":{
+    "tomatoImage":"https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg",
+    "tomatoDetails":"Tomato, (Solanum lycopersicum), flowering plant of the nightshade family (Solanaceae), cultivated extensively for its edible fruits. Labelled as a vegetable for nutritional purposes, tomatoes are a good source of vitamin C and the phytochemical lycopene."
+}
+
+
 }
