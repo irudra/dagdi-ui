@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ccc9b602b0eaee559f72bb015e6a793f",
+    "revision": "b63fcd1ebaab5a81f5635230d0f5807a",
     "url": "/dagdi-ui/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dagdi-ui/static/css/2.83c65ca0.chunk.css"
   },
   {
-    "revision": "58e4ef97a5dc2c2dae2d",
+    "revision": "75cb8c65921f976a7bbc",
     "url": "/dagdi-ui/static/css/main.c2ff35bd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dagdi-ui/static/js/2.86b865cc.chunk.js"
   },
   {
-    "revision": "58e4ef97a5dc2c2dae2d",
-    "url": "/dagdi-ui/static/js/main.2c072d57.chunk.js"
+    "revision": "75cb8c65921f976a7bbc",
+    "url": "/dagdi-ui/static/js/main.a70741f4.chunk.js"
   },
   {
     "revision": "5d50a719e7b42726e12d",
@@ -25,7 +25,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "5e995605b3c020009f4c5cfa53a826d1",
-    "url": "/dagdi-ui/static/media/CorpTomato.5e995605.jpg"
+    "url": "/dagdi-ui/static/media/CropTomato.5e995605.jpg"
   },
   {
     "revision": "30d2c6710896e433060716bc00e30d2c",
