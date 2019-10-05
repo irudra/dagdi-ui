@@ -15,7 +15,7 @@ function LocationSearchFunction() {
   return <div className="btn-wrapper">
   <div className="container">
       <div className="mb-3">
-          <small className="display-4 text-white">{t("Enter your Farm location Details")}</small>
+          <small className="display-4 text-light">{t("Enter your Farm location Details")}</small>
           <div className="form-group">
               <Row>
                   <Col lg={"9"}>

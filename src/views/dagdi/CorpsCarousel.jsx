@@ -60,7 +60,7 @@ function CorpsCarousel() {
                 <Button
                     className="btn-white mt-4"
                     color="default"
-                    href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
+                    href="#"
                 >
                   {t("Find more details about it")}
                 </Button>
