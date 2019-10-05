@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Button, Row, Container, Card } from "reactstrap";
-class CorpProfile extends React.Component {
+class CropProfile extends React.Component {
     render() {
         return (
             <>
@@ -115,4 +115,4 @@ class CorpProfile extends React.Component {
     }
 }
 
-export default CorpProfile;
+export default CropProfile;

@@ -35,7 +35,7 @@ const items = [
   }
 ];
 
-function CorpsCarousel() {
+function CropsCarousel() {
   const { t } = useTranslation();
   return (
     
@@ -90,4 +90,4 @@ function CorpsCarousel() {
   );
 }
 
-export default CorpsCarousel;
+export default CropsCarousel;

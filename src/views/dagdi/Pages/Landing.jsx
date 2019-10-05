@@ -23,7 +23,7 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
 // reactstrap components
 import { Badge, Button, Card, CardBody, CardImg, Col, Container, Row } from "reactstrap";
-import CorpsCarousel from "views/dagdi/CorpsCarousel";
+import CropsCarousel from "views/dagdi/CropsCarousel";
 // index page sections
 import Download from "views/IndexSections/Download.jsx";
 import ContactUs from "../ContactUs";
@@ -56,7 +56,7 @@ function LandingFunction() {
                             <Row>
                                 <Col lg="9">
                                     <h1 className="display-3 text-white">
-                                        {t("Dagdi Corp Prediction System")}{" "}
+                                        {t("Dagdi Crop Prediction System")}{" "}
                                         <span>{t("An intelligent system to help farmers")}</span>
                                     </h1>
                                     <p className="lead text-white">
@@ -218,7 +218,7 @@ function LandingFunction() {
                 </Container>
             </section>
             <OurMission />
-            <CorpsCarousel />
+            <CropsCarousel />
             <section className="section bg-secondary">
                 <Container>
                     <Row className="row-grid align-items-center">

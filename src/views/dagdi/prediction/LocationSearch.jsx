@@ -33,7 +33,7 @@ function LocationSearchFunction() {
                       <div className="input-group input-group-append">
                       <Button><Link 
                           to={'/prediction-requirement'}
-                          > {t("Find your corps")}</Link></Button>
+                          > {t("Find your crops")}</Link></Button>
                          
                       </div>
                   </Col>

@@ -27,14 +27,14 @@ function PredictionFucntion() {
                 <img
                   alt="tomato"
                   className="img-fluid img-thumbnail"
-                  src={require("assets/img/theme/CorpTomato.jpg")}
+                  src={require("assets/img/theme/CropTomato.jpg")}
                 />
               </td>
               <td>
                 {t("table row1 description")}
     </td>
               <td>
-                <tr><Link to='/corps-page/irudra'><button type="button" class="btn btn-primary">Details</button></Link></tr>
+                <tr><Link to='/crops-page/irudra'><button type="button" class="btn btn-primary">Details</button></Link></tr>
                 <tr> <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button></tr>
                 <tr> <button type="button" class="btn btn-primary"><i class="fas fa-edit"></i></button></tr>
                 <tr> <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button></tr>
