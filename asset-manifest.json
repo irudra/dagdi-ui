@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dagdi-ui/static/css/main.c2ff35bd.chunk.css",
-    "main.js": "/dagdi-ui/static/js/main.865c7350.chunk.js",
-    "main.js.map": "/dagdi-ui/static/js/main.865c7350.chunk.js.map",
+    "main.js": "/dagdi-ui/static/js/main.2c072d57.chunk.js",
+    "main.js.map": "/dagdi-ui/static/js/main.2c072d57.chunk.js.map",
     "runtime~main.js": "/dagdi-ui/static/js/runtime~main.f90934c6.js",
     "runtime~main.js.map": "/dagdi-ui/static/js/runtime~main.f90934c6.js.map",
     "static/css/2.83c65ca0.chunk.css": "/dagdi-ui/static/css/2.83c65ca0.chunk.css",
     "static/js/2.86b865cc.chunk.js": "/dagdi-ui/static/js/2.86b865cc.chunk.js",
     "static/js/2.86b865cc.chunk.js.map": "/dagdi-ui/static/js/2.86b865cc.chunk.js.map",
     "index.html": "/dagdi-ui/index.html",
-    "precache-manifest.497d22fa6f5ae00b9fac87e97dd0f49d.js": "/dagdi-ui/precache-manifest.497d22fa6f5ae00b9fac87e97dd0f49d.js",
+    "precache-manifest.4b93bf1cd08f8835e317673dbc17a7a9.js": "/dagdi-ui/precache-manifest.4b93bf1cd08f8835e317673dbc17a7a9.js",
     "service-worker.js": "/dagdi-ui/service-worker.js",
     "static/css/2.83c65ca0.chunk.css.map": "/dagdi-ui/static/css/2.83c65ca0.chunk.css.map",
     "static/css/main.c2ff35bd.chunk.css.map": "/dagdi-ui/static/css/main.c2ff35bd.chunk.css.map",
