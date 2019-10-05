@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-import myData from './corps.json';
+import myData from './crops.json';
 
 export default function ExampleHttpWithDynamicParameter(props) {
     const initialUserState = {

@@ -17,7 +17,7 @@ const items = [
     }
 ];
 
-class CorpsPageCarousel extends React.Component {
+class CropsPageCarousel extends React.Component {
     
     render() {
         return (
@@ -144,4 +144,4 @@ class CorpsPageCarousel extends React.Component {
         );
     }
 }
-export default CorpsPageCarousel;
+export default CropsPageCarousel;

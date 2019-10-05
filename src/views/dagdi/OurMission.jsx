@@ -38,7 +38,7 @@ function MainSection() {
                                 </div>
                                 <div>
                                     <h6 className="mb-0">
-                                        {t("More option to the farmers while picking any corp")}
+                                        {t("More option to the farmers while picking any crop")}
                                     </h6>
                                 </div>
                             </div>
