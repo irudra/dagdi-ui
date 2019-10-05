@@ -15,7 +15,7 @@ function OurTeamFunction() {
             </Col>
         </Row>
         <Row>
-            <Col className="mb-5 mb-lg-0" lg="3" md="6">
+            <Col className="mb-5 mb-lg-0" lg="4" md="6">
                 <div className="px-4">
                     <img
                         alt="..."
@@ -62,51 +62,7 @@ function OurTeamFunction() {
                     <img
                         alt="..."
                         className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                        src={require("assets/img/theme/param.png")}
-                        style={{width: "200px", height: "200px"}}
-                    />
-                    <div className="pt-4 text-center">
-                        <h5 className="title">
-                            <span className="d-block mb-1">{t("Parmanand Gaur")}</span>
-                            <small className="h6 text-muted">
-                                Director
-                            </small>
-                        </h5>
-                        <div className="mt-3">
-                            <Button
-                                className="btn-icon-only rounded-circle"
-                                color="primary"
-                                href="#pablo"
-                                onClick={e => e.preventDefault()}
-                            >
-                                <i className="fa fa-twitter"/>
-                            </Button>
-                            <Button
-                                className="btn-icon-only rounded-circle ml-1"
-                                color="primary"
-                                href="#pablo"
-                                onClick={e => e.preventDefault()}
-                            >
-                                <i className="fa fa-facebook"/>
-                            </Button>
-                            <Button
-                                className="btn-icon-only rounded-circle ml-1"
-                                color="primary"
-                                href="#pablo"
-                                onClick={e => e.preventDefault()}
-                            >
-                                <i className="fa fa-dribbble"/>
-                            </Button>
-                        </div>
-                    </div>
-                </div>
-            </Col>
-            <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                <div className="px-4">
-                    <img
-                        alt="..."
-                        className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                        src={require("assets/img/theme/team-3-800x800.jpg")}
+                        src={require("assets/img/theme/team-1-800x800.jpg")}
                         style={{width: "200px", height: "200px"}}
                     />
                     <div className="pt-4 text-center">
@@ -143,7 +99,7 @@ function OurTeamFunction() {
                     </div>
                 </div>
             </Col>
-            <Col className="mb-5 mb-lg-0" lg="3" md="6">
+            <Col className="mb-5 mb-lg-0" lg="4" md="6">
                 <div className="px-4">
                     <img
                         alt="..."
@@ -154,7 +110,7 @@ function OurTeamFunction() {
                     <div className="pt-4 text-center">
                         <h5 className="title">
                             <span className="d-block mb-1">{t("Hemant Gaur")}</span>
-                            <small className="h6 text-muted">Founder<br/> Senior Developer</small>
+                            <small className="h6 text-muted">Founder / Senior Developer</small>
                         </h5>
                         <div className="mt-3">
                             <Button
