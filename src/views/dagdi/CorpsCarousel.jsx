@@ -16,6 +16,7 @@
 
 */
 import React from "react";
+import { useTranslation } from "react-i18next";
 // reactstrap components
 import {Button, Col, Container, Row, UncontrolledCarousel} from "reactstrap";
 
@@ -35,8 +36,9 @@ const items = [
 ];
 
 function CorpsCarousel() {
+  const { t } = useTranslation();
   return (
-      <>
+    
         <section className="section section-shaped">
           <div className="shape shape-style-1 shape-default">
             <span/>
@@ -50,22 +52,17 @@ function CorpsCarousel() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  Why we matter
+                  {t("Why we matter")}
                 </h1>
                 <p className="lead text-white mt-4">
-                  The traditional corps does not provide a better return for the farmers. The decision to use a corp is
-                  mainly based the generational or area but not with scientific knowledge and market analysis.
-                  This result people using undistributed corps, which results in very low prizes for some of the popular corps and
-                  very high prizes for some other corps. This results in a bad situation for farmers and also for the consumers.
-                  No knowledge of upcoming weather situation and its effect on the corps results in losses for the farmer due to damaged fields,
-                  corps and disease.
+                  {t("Why we matter description")}
                 </p>
                 <Button
                     className="btn-white mt-4"
                     color="default"
                     href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
                 >
-                  Find more details about it.
+                  {t("Find more details about it")}
                 </Button>
               </Col>
               <Col className="mb-lg-auto" lg="6">
@@ -89,7 +86,7 @@ function CorpsCarousel() {
             </svg>
           </div>
         </section>
-      </>
+     
   );
 }
 

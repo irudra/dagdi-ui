@@ -18,6 +18,10 @@
 import React from "react";
 // reactstrap components
 import { Button, Col, Container, Row, UncontrolledCarousel } from "reactstrap";
+import {useTranslation} from "react-i18next";
+import LocationSearch from "./LocationSearch";
+
+
 
 const items = [
     {
@@ -33,53 +37,57 @@ const items = [
         header: ""
     }
 ];
+function PredictionCarouselFunction() {
+    const {t} = useTranslation();
+    return <section className="section ">
+    <Row className="justify-content-start align-items-start">
+        <Col className="mb-lg-0" lg="4">
+            <Container>
+            <div className="rounded shadow overflow-hidden ">
+                <UncontrolledCarousel items={items} />
+                </div>
+            </Container>
+        </Col>
+        <Col className="mb-5 mb-lg-0" lg="8">
+            <Container>
+            <h1 className="text-dark font-weight-light">
+                {t("Why we matter")}
+</h1>
+            <p className="lead text-Bls mt-4">
+            {t("Why we matter description")}  
+</p>
+            <Button
+                className="btn-white mt-4"
+                color="default"
+                href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
+            >
+                {t("Find more details about it")}
+</Button>
+</Container>
+        </Col>
+    </Row>
+{/* SVG separator */}
+<div className="separator separator-bottom separator-skew">
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 2560 100"
+        x="0"
+        y="0"
+    >
+        <polygon className="fill-white" points="2560 0 2560 100 0 100" />
+    </svg>
+</div>
+</section>
+}
 
 class PredictionCarousel extends React.Component {
     render() {
         return (
             <>
-                <section className="section ">
-                        <Row className="justify-content-start align-items-start">
-                            <Col className="mb-lg-0" lg="4">
-                                <Container>
-                                <div className="rounded shadow overflow-hidden ">
-                                    <UncontrolledCarousel items={items} />
-                                    </div>
-                                </Container>
-                            </Col>
-                            <Col className="mb-5 mb-lg-0" lg="8">
-                                <Container>
-                                <h1 className="text-dark font-weight-light">
-                                    Why we matter
-                </h1>
-                                <p className="lead text-Bls mt-4">
-                                    The traditional corps does not provide a better return for the farmers. The decision to use a corp is
-                                    mainly based the generational or area but not with scientific knowledge and market analysis.
-                </p>
-                                <Button
-                                    className="btn-white mt-4"
-                                    color="default"
-                                    href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                                >
-                                    Find more details about it.
-                </Button>
-                </Container>
-                            </Col>
-                        </Row>
-                    {/* SVG separator */}
-                    <div className="separator separator-bottom separator-skew">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            preserveAspectRatio="none"
-                            version="1.1"
-                            viewBox="0 0 2560 100"
-                            x="0"
-                            y="0"
-                        >
-                            <polygon className="fill-white" points="2560 0 2560 100 0 100" />
-                        </svg>
-                    </div>
-                </section>
+            <LocationSearch/>
+              <PredictionCarouselFunction/>  
             </>
         );
     }
