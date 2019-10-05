@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56e2248a737a48118afda11fbc4e40d1",
+    "revision": "ccc9b602b0eaee559f72bb015e6a793f",
     "url": "/dagdi-ui/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dagdi-ui/static/css/2.83c65ca0.chunk.css"
   },
   {
-    "revision": "be4a418fac1e28a30914",
+    "revision": "58e4ef97a5dc2c2dae2d",
     "url": "/dagdi-ui/static/css/main.c2ff35bd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dagdi-ui/static/js/2.86b865cc.chunk.js"
   },
   {
-    "revision": "be4a418fac1e28a30914",
-    "url": "/dagdi-ui/static/js/main.865c7350.chunk.js"
+    "revision": "58e4ef97a5dc2c2dae2d",
+    "url": "/dagdi-ui/static/js/main.2c072d57.chunk.js"
   },
   {
     "revision": "5d50a719e7b42726e12d",
