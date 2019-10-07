@@ -1,50 +1,84 @@
-{ "PotatoID":{
-  "login": "irudra",
-  "id": 15983266,
-  "node_id": "MDQ6VXNlcjE1OTgzMjY2",
-  "avatar_url": "https://avatars0.githubusercontent.com/u/15983266?v=4",
-  "gravatar_id": "",
-  "url": "https://api.github.com/users/irudra",
-  "html_url": "https://github.com/irudra",
-  "followers_url": "https://api.github.com/users/irudra/followers",
-  "following_url": "https://api.github.com/users/irudra/following{/other_user}",
-  "gists_url": "https://api.github.com/users/irudra/gists{/gist_id}",
-  "starred_url": "https://api.github.com/users/irudra/starred{/owner}{/repo}",
-  "subscriptions_url": "https://api.github.com/users/irudra/subscriptions",
-  "organizations_url": "https://api.github.com/users/irudra/orgs",
-  "repos_url": "https://api.github.com/users/irudra/repos",
-  "events_url": "https://api.github.com/users/irudra/events{/privacy}",
-  "received_events_url": "https://api.github.com/users/irudra/received_events",
-  "type": "User",
-  "site_admin": false,
-  "name": "Hemant Gaur",
-  "company": "Appbuddy Technology",
-  "blog": "hgaur.com",
-  "location": "Masi, Almora",
-  "email": null,
-  "hireable": true,
-  "bio": "A software Consultant with 9 years of software Industry experience and overall 10 years of software dev experience.\r\nAlso, help people as a corporate trainer.",
-  "public_repos": 11,
-  "public_gists": 0,
-  "followers": 0,
-  "following": 3,
-  "created_at": "2015-11-23T15:27:09Z",
-  "updated_at": "2019-09-28T12:25:08Z",
-  "user_name":"Nigam",
-  "user_age":", 21",
-  "user_location":"Noida",
-  "user_profession":"Web developer",
-  "user_education":"Teerthanker Mahaveer",
-  "user_description":"An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
-  "friend_count":"13",
-  "photos_count":"23",
-  "comment_count":"32"
-},
+[
+    {
+        "login": "irudra",
+        "node_id": "MDQ6VXNlcjE1OTgzMjY2",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/15983266?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/irudra",
+        "html_url": "https://github.com/irudra",
+        "followers_url": "https://api.github.com/users/irudra/followers",
+        "following_url": "https://api.github.com/users/irudra/following{/other_user}",
+        "gists_url": "https://api.github.com/users/irudra/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/irudra/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/irudra/subscriptions",
+        "organizations_url": "https://api.github.com/users/irudra/orgs",
+        "repos_url": "https://api.github.com/users/irudra/repos",
+        "events_url": "https://api.github.com/users/irudra/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/irudra/received_events",
+        "type": "User",
+        "site_admin": false,
+        "name": "Hemant Gaur",
+        "company": "Appbuddy Technology",
+        "blog": "hgaur.com",
+        "location": "Masi, Almora",
+        "email": null,
+        "hireable": true,
+        "bio": "A software Consultant with 9 years of software Industry experience and overall 10 years of software dev experience.\r\nAlso, help people as a corporate trainer.",
+        "public_repos": 11,
+        "public_gists": 0,
+        "followers": 0,
+        "following": 3,
+        "created_at": "2015-11-23T15:27:09Z",
+        "updated_at": "2019-09-28T12:25:08Z",
+        "user_name": "Nigam",
+        "user_age": ", 21",
+        "user_location": "Noida",
+        "user_profession": "Web developer",
+        "user_education": "Teerthanker Mahaveer",
+        "user_description": "An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+        "friend_count": "13",
+        "photos_count": "23",
+        "comment_count": "32",  
+        "id": "tomatoID",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tomato_plant_1.jpg/1200px-Tomato_plant_1.jpg",
+        "details": "Tomato, (Solanum lycopersicum), flowering plant of the nightshade family (Solanaceae), cultivated extensively for its edible fruits. Labelled as a vegetable for nutritional purposes, tomatoes are a good source of vitamin C and the phytochemical lycopene."
+ 
+    },
+    {
+        "id": "brinjalID",
+        "name":"Brinjal",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIDXxuDWkycIBrmA6_SU8EZvHvDUqgYZkeJ5Sm_A2ndrnVjXN-yO63SEwJDg",
+        "details": "Image result for brinjal crop production Brinjal being a long duration crop, requires a good amount of manures and fertilizers for high yield. The fertilizer dose depends upon the fertility of soil and amount of organic manure applied to the crop."
+    },
+    {
+        "id":"potatoID",
+        "name":"Potato",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/330px-Patates.jpg",
+        "details":"The importance of the potato as a food source and culinary ingredient varies by region and is still changing. It remains an essential crop in Europe, especially Northern and Eastern Europe, where per capita production is still the highest in the world."
+    },
+    {
+        "id":"CaurliflowerID",
+        "name":"Caurliflower",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJEGank1KldgaB-c1s6DrA6IkoeGxJ7EQaCtsUMU4ZgDchVuCl",
+        "details":"Cauliflower (Brassica oleracea) is one of the most important vegetable crops of India. The edible part of cauliflower is known as curd, which consists of a shoot system with short internodes, branches apices and bracts. The edible portion of this vegetable is approximately 45 per cent of the vegetable as purchased"
+    },
+    {
+        "id":"SugerCaneID",
+        "name":"SugerCane",
+        "image":"https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2018/06/22/Photos/Processed/sugarcane6-klbE--621x414@LiveMint.jpg",
+        "details":"Cropping season and duration of Sugarcane. Depending upon the variety and sowing time it takes about 12 to 18 months to mature. In general January to march is the period of planting and December to March is the period of harvesting. In some states sugarcane is grown round the year."
+    },
+    {
+        "id":"wheatID",
+        "name":"Wheat Grains",
+        "image":"https://cdn.britannica.com/90/94190-050-C0BA6A58/Cereal-crops-wheat-reproduction.jpg",
+        "details":"Wheat is the most widely cultivated cereal crop in the world, with Australia being the eighth largest producer and fourth largest exporter of wheat in the world. Wheat has come to be a firm favourite grain because of the diversity it provides in culinary applications."
+    },
+    {
+        "id":"CornID",
+        "name":"Corn",
+        "image":"https://www.bakingbusiness.com/ext/resources/2019/5/05272019/CornStalk_Lead.jpg?1559229073",
+        "details":"Corn crops around the world have different production cycles when it comes to planting and harvesting timeframes. Analyzing the corn market requires an understanding of the planting and harvest seasons within each country."
+    }
 
-"tomatoID":{
-    "tomatoImage":"https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg",
-    "tomatoDetails":"Tomato, (Solanum lycopersicum), flowering plant of the nightshade family (Solanaceae), cultivated extensively for its edible fruits. Labelled as a vegetable for nutritional purposes, tomatoes are a good source of vitamin C and the phytochemical lycopene."
-}
-
-
-}
+]

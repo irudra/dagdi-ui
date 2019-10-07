@@ -17,20 +17,8 @@
 */
 /*eslint-disable*/
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
-import {
-  Button,
-  Card,
-  CardImg,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip
-} from "reactstrap";
+import { Col, Container, Nav, NavItem, NavLink, Row } from "reactstrap";
 
 class CardsFooter extends React.Component {
   render() {

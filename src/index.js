@@ -59,6 +59,11 @@ ReactDOM.render(
                     exact
                     render={props => <CorpProfile {...props} />}
                 />
+                 <Route
+                    path="/prediction-result"
+                    exact
+                    render={props => <Prediction {...props} />}
+                />
                 <Redirect to="/"/>
             </Switch>
         </BrowserRouter></I18nextProvider>,
