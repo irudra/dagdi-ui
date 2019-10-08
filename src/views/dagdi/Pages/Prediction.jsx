@@ -4,18 +4,17 @@ import { Link } from "react-router-dom";
 import myData from "views/dagdi/Pages/crops.json";
 // reactstrap components
 import { Card, CardFooter, CardHeader, Container, Pagination, PaginationItem, PaginationLink, Row, Table } from "reactstrap";
+import DagdiNavbar from "components/Navbars/DagdiNavbar";
+import CardsFooter from "components/Footers/CardsFooter";
 function PredictionFucntion() {
   const { t } = useTranslation();
-
- 
-
-  return <Container className="mb-xl" fluid>
-    {/* Table */}
+  return  <Container fluid>
+    {/* Table */} 
     <Row>
-      <div className="col">
-        <Card className="shadow">
+      <div className="col mr-xl ml-xl">
+        <Card className="shadow ">
           <CardHeader className="border-0 text-center">
-            <h3 className="mb-0 ">{t("Crop Result")}</h3>
+            <h3 className="mb-0 display-3">{t("Crop Result")}</h3>
           </CardHeader>
           <Table className="align-items-center table-flush" responsive>
             <thead className="thead-light">
@@ -39,10 +38,8 @@ function PredictionFucntion() {
                     {obj.details}
                   </td>
                   <td>
-                    <tr><Link to='/corps-page/irudra'><button type="button" class="btn btn-primary">Details</button></Link></tr>
-                    <tr> <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button></tr>
-                    <tr> <button type="button" class="btn btn-primary"><i class="fas fa-edit"></i></button></tr>
-                    <tr> <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button></tr>
+                    <tr><Link to={"cropProfile-page/"+obj.id}><button type="button" class="btn btn-primary">Details</button></Link></tr>
+                    
                   </td>
                 </tr>
               })}
@@ -117,8 +114,16 @@ class Prediction extends React.Component {
   render() {
     return (
       <>
+       <DagdiNavbar/>
+    <section className="section section-shaped ">
+          <div className="shape shape-style-1 shape-primary">
+            <span />
+            <span />
+            <span />
+          </div>
+        </section>
         <PredictionFucntion />
-
+<CardsFooter/>
       </>
     );
   }

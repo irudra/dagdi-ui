@@ -1,9 +1,11 @@
 import React from "react";
 import { Col, Button, Row, Container, Card } from "reactstrap";
-import myData from './crops.json';
+import myData from './cropsMap.json';
 class CropProfile extends React.Component {
+
+    
     render() {
-        const id1 = "PotatoID";
+        const crop = myData[this.props.match.params.id];
         return (
             <>
 
@@ -26,7 +28,7 @@ class CropProfile extends React.Component {
                                                     <img
                                                         alt="..."
                                                         className="rounded-circle"
-                                                        src={require("assets/img/theme/413287.jpg")}
+                                                        src={crop.image}
                                                     />
                                                 </a>
                                             </div>
@@ -57,48 +59,49 @@ class CropProfile extends React.Component {
                                             </div>
                                         </Col>
                                         <Col className="order-lg-1" lg="4">
+
                                             <div className="card-profile-stats d-flex justify-content-center">
                                                 <div>
-                                                    <span className="heading">{myData[id1].friend_count}</span>
-                                                    <span className="description">Friends </span>
+                                                    <span className="heading">{crop.current_price}</span>
+                                                    <span className="description">Current Price </span>
                                                 </div>
                                                 <div>
-                                                    <span className="heading">{myData[id1].photos_count}</span>
-                                                    <span className="description">Photos </span>
+                                                    <span className="heading">{crop.varieties}</span>
+                                                    <span className="description">Varieties </span>
                                                 </div>
 
 
 
                                                 <div>
-                                                    <span className="heading">{myData[id1].comment_count}</span>
-                                                    <span className="description">Comments</span>
+                                                    <span className="heading">{crop.annual_production}</span>
+                                                    <span className="description">Annual Production</span>
                                                 </div>
                                             </div>
                                         </Col>
                                     </Row>
-                                    <div className="text-center mt-5">
+                                    <div className="text-center">
                                         <h3>
-                                            {myData[id1].user_name}{" "}
-                                            <span className="font-weight-light">{myData[id1].user_age}</span>
+                                            {crop.user_name}
+                                            
                                         </h3>
                                         <div className="h6 font-weight-300">
                                             <i className="ni location_pin mr-2" />
-                                            {myData[id1].user_location}
+                                            {crop.user_location}
                                         </div>
                                         <div className="h6 mt-4">
                                             <i className="ni business_briefcase-24 mr-2" />
-                                            {myData[id1].user_profession}
+                                            {crop.user_profession}
                                         </div>
                                         <div>
                                             <i className="ni education_hat mr-2" />
-                                            {myData[id1].user_education}
+                                            {crop.user_education}
                                         </div>
                                     </div>
                                     <div className="mt-5 py-5 border-top text-center">
                                         <Row className="justify-content-center">
                                             <Col lg="9">
                                                 <p>
-                                                    {myData[id1].user_description}
+                                                    {crop.user_description}
                                                 </p>
                                                 <a href="#pablo" onClick={e => e.preventDefault()}>
                                                     Show more
@@ -112,6 +115,7 @@ class CropProfile extends React.Component {
                     </section>
                 </main>
             </>
+
         );
     }
 }

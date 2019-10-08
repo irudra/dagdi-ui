@@ -55,7 +55,7 @@ ReactDOM.render(
                     render={props => <Register {...props} />}
                 />
                 <Route
-                    path="/cropProfile-page"
+                    path="/cropProfile-page/:id"
                     exact
                     render={props => <CropProfile {...props} />}
                 />
