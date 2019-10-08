@@ -1,8 +1,7 @@
 import React from "react";
 import { Col, Button, Row, Container, Card } from "reactstrap";
-import myData from "views/dagdi/Pages/corps.json";
-
-class CorpProfile extends React.Component {
+import myData from './crops.json';
+class CropProfile extends React.Component {
     render() {
         const id1 = "PotatoID";
         return (
@@ -117,4 +116,4 @@ class CorpProfile extends React.Component {
     }
 }
 
-export default CorpProfile;
+export default CropProfile;

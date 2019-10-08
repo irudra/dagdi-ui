@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-import myData from './corps.json';
+import myData from './crops.json';
 
-export default function UserPage(props) {
+export default function CropsProfile(props) {
     const initialUserState = {
         user: {},
         loading: true,

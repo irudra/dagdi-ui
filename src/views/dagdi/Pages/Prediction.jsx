@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import myData from "views/dagdi/Pages/corps.json";
+import myData from "views/dagdi/Pages/crops.json";
 // reactstrap components
 import { Card, CardFooter, CardHeader, Container, Pagination, PaginationItem, PaginationLink, Row, Table } from "reactstrap";
 function PredictionFucntion() {

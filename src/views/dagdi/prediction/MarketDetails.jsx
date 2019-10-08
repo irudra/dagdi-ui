@@ -33,15 +33,15 @@ function MarketDetailsFunction() {
           <InputGroup onChange={onRadioBtnClick} horizontal>
             <div class="custom-control mr-lg custom-radio mb-3 col-lg-2">
               <input name="Road Transport" class="custom-control-input" id="road.easy" type="radio" />
-              <label class="custom-control-label" for="road.easy">{t("Road within 10 km")}</label>
+              <label class="custom-control-label" for="road.easy">{t("Within 1 km")}</label>
             </div>
             <div class="custom-control mr-lg custom-radio mb-3 col-lg-2">
               <input name="Road Transport" class="custom-control-input" id="road.medium" type="radio" />
-              <label class="custom-control-label" for="road.medium">{t("Road within 50 km")}</label>
+              <label class="custom-control-label" for="road.medium">{t("Within 10 km")}</label>
             </div>
             <div class="custom-control mr-lg custom-radio mb-3 col-lg-2">
               <input name="Road Transport" class="custom-control-input" id="road.hard" type="radio" />
-              <label class="custom-control-label" for="road.hard">{t("More than 50 km")}</label>
+              <label class="custom-control-label" for="road.hard">{t("More than 10 km")}</label>
             </div>
           </InputGroup>
           
@@ -49,11 +49,11 @@ function MarketDetailsFunction() {
           <InputGroup onChange={onRadioBtnClick} horizontal>
             <div class="custom-control mr-lg custom-radio mb-3 col-lg-2">
               <input name="Train Transport" class="custom-control-input" id="train.easy" type="radio" />
-              <label class="custom-control-label" for="train.easy">{t("Train within 10 km")}</label>
+              <label class="custom-control-label" for="train.easy">{t("Within 10 km")}</label>
             </div>
             <div class="custom-control mr-lg custom-radio mb-3 col-lg-2">
               <input name="Train Transport" class="custom-control-input" id="train.medium" type="radio" />
-              <label class="custom-control-label" for="train.medium">{t("Train within 50 km")}</label>
+              <label class="custom-control-label" for="train.medium">{t("Within 50 km")}</label>
             </div>
             <div class="custom-control mr-lg custom-radio mb-3 col-lg-2">
               <input name="Train Transport" class="custom-control-input" id="train.hard" type="radio" />

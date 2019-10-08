@@ -30,7 +30,7 @@ import OurWork from "../dagdi/OurWork.jsx";
 import OurTeam from "../dagdi/OurTeam.jsx";
 import Marketing from "../dagdi/Marketing.jsx";
 import ContactUs from "../dagdi/ContactUs.jsx";
-import CorpsCarousel from "../dagdi/CorpsCarousel";
+import CropsCarousel from "../dagdi/CropsCarousel";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -46,7 +46,7 @@ class Index extends React.Component {
          
           <Hero />
           <OurMission/>
-          <CorpsCarousel />
+          <CropsCarousel />
           <OurWork />
           <OurTeam />
           <Marketing />
