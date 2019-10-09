@@ -14,6 +14,7 @@ import Register from "views/pages/Register.jsx";
 import Prediction from "views/dagdi/Pages/Prediction.jsx";
 import PredictionRequirement from "views/dagdi/Pages/PredicitonRequirement.jsx";
 import CropsProfile from "./views/dagdi/Pages/CropsProfile";
+import CropProfile from "./views/dagdi/Pages/CropProfile.jsx";
 import i18n from "./i18n";
 
 ReactDOM.render(
@@ -28,7 +29,7 @@ ReactDOM.render(
                 />
                 <Route path="/" exact render={props => <Index {...props} />}/>
                 <Route
-                    path="/prediction-page"
+                    path="/prediction-page/:id"
                     exact
                     render={props => <Prediction {...props} />}
                 />
@@ -52,6 +53,16 @@ ReactDOM.render(
                     path="/register-page"
                     exact
                     render={props => <Register {...props} />}
+                />
+                <Route
+                    path="/cropProfile-page/:id"
+                    exact
+                    render={props => <CropProfile {...props} />}
+                />
+                 <Route
+                    path="/prediction-result"
+                    exact
+                    render={props => <Prediction {...props} />}
                 />
                 <Redirect to="/"/>
             </Switch>

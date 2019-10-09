@@ -8,7 +8,7 @@ function PreferencesFunction() {
  
 
  const onRadioBtnClick = (rSelected) => {
-    this.setState({ rSelected });
+    
   };
 
   const { t } = useTranslation();
