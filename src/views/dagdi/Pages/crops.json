@@ -2,14 +2,14 @@
     {
         "id": "tomatoID",
         "name":"Tomato",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tomato_plant_1.jpg/1200px-Tomato_plant_1.jpg",
+        "image": "https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "details": "Tomato, (Solanum lycopersicum), flowering plant of the nightshade family (Solanaceae), cultivated extensively for its edible fruits. Labelled as a vegetable for nutritional purposes, tomatoes are a good source of vitamin C and the phytochemical lycopene."
     },
     {
         "id": "brinjalID",
         "name":"Brinjal",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIDXxuDWkycIBrmA6_SU8EZvHvDUqgYZkeJ5Sm_A2ndrnVjXN-yO63SEwJDg",
-        "details": "Image result for brinjal crop production Brinjal being a long duration crop, requires a good amount of manures and fertilizers for high yield. The fertilizer dose depends upon the fertility of soil and amount of organic manure applied to the crop."
+        "image": "http://www.bakhaberkissan.com/wp-content/uploads/2019/06/Rocket112-1024x577.jpg",
+        "details": "Brinjal crop production Brinjal being a long duration crop, requires a good amount of manures and fertilizers for high yield. The fertilizer dose depends upon the fertility of soil and amount of organic manure applied to the crop."
     },
     {
         "id":"potatoID",

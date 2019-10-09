@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import LocationSearch from "./LocationSearch";
 function MarketDetailsFunction() {
  const onRadioBtnClick = (rSelected) => {
-    this.setState({ rSelected });
+   
   };
 
   const { t } = useTranslation();

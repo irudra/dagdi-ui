@@ -21,7 +21,7 @@ function PredictionFucntion() {
               <tr>
                 <th scope="col">{t("Images")}</th>
                 <th class="text-center" scope="col">{t("Crop Description")}</th>
-                <th scope="col">{t("Status")}</th>
+                <th scope="col">{t("Action")}</th>
               </tr>
             </thead>
             <tbody>
@@ -119,7 +119,7 @@ class Prediction extends React.Component {
           <div className="shape shape-style-1 shape-primary">
             <span />
             <span />
-            <span />
+            
           </div>
         </section>
         <PredictionFucntion />
