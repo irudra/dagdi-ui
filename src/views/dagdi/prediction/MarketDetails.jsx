@@ -66,12 +66,14 @@ function MarketDetailsFunction() {
 
 
 class MarketDetails extends Component {
-  
 
   render() {
+      const value = {
+          to:'/prediction-result'
+      };
     return (
       <>
-      <LocationSearch/>
+      <LocationSearch {...value}/>
       <MarketDetailsFunction/>
       </>
     );

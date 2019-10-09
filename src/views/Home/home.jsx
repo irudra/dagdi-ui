@@ -16,15 +16,11 @@
 
 */
 import React from "react";
-
 // core components
 import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
 import CardsFooter from "components/Footers/CardsFooter.jsx";
-
 // index page sections
 import Hero from "./Hero.jsx";
-
-import Download from "../IndexSections/Download.jsx";
 import OurMission from "../dagdi/OurMission.jsx";
 import OurWork from "../dagdi/OurWork.jsx";
 import OurTeam from "../dagdi/OurTeam.jsx";
@@ -51,7 +47,6 @@ class Index extends React.Component {
           <OurTeam />
           <Marketing />
           <ContactUs />
-          <Download />
         </main>
         <CardsFooter />
       </>

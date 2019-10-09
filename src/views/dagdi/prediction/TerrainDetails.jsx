@@ -68,9 +68,14 @@ class TerrainDetails extends Component {
  
 
   render() {
+
+      const value = {
+          to:'/prediction-result'
+      };
+
     return (
       <>
-      <LocationSearch/>
+      <LocationSearch {...value}/>
       <PredictionFunction/>
       </>
     );

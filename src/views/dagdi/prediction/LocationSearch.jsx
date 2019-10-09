@@ -1,16 +1,12 @@
 import React from "react";
+// reactstrap components
+import {Button, Col, Row} from "reactstrap";
+import {Link} from "react-router-dom";
+import {useTranslation} from "react-i18next";
 // nodejs library that concatenates classes
 
-// reactstrap components
-import {
-    Button,
-    Row,
-    Col
-} from "reactstrap";
-import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
-
-function LocationSearchFunction() {
+export default function LocationSearch(value) {
+    console.info(value);
   const { t } = useTranslation();
   return <div className="btn-wrapper">
   <div className="container">
@@ -31,10 +27,9 @@ function LocationSearchFunction() {
                   </Col>
                   <Col lg={"3"}>
                       <div className="input-group input-group-append">
-                      <Button><Link 
-                          to={'/prediction-requirement'}
+                      <Button><Link
+                          to={value.to}
                           > {t("Find your crops")}</Link></Button>
-                         
                       </div>
                   </Col>
               </Row>
@@ -44,20 +39,3 @@ function LocationSearchFunction() {
 
 </div>
 }
-class LocationSearch extends React.Component {
-    state = {};
-
-    componentDidMount() {
-
-    }
-
-    render() {
-        return (
-            <>
-                <LocationSearchFunction/>
-            </>
-        );
-    }
-}
-
-export default LocationSearch;

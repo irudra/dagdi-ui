@@ -19,13 +19,12 @@ import CardsFooter from "components/Footers/CardsFooter.jsx";
 // core components
 import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
 import React from "react";
-import { useTranslation } from "react-i18next";
-import { Link } from "react-scroll";
+import {useTranslation} from "react-i18next";
+import {Link} from "react-scroll";
 // reactstrap components
-import { Badge, Button, Card, CardBody, CardImg, Col, Container, Row } from "reactstrap";
+import {Badge, Button, Card, CardBody, CardImg, Col, Container, Row} from "reactstrap";
 import CropsCarousel from "views/dagdi/CropsCarousel";
 // index page sections
-import Download from "views/IndexSections/Download.jsx";
 import ContactUs from "../ContactUs";
 import Marketing from "../Marketing";
 import OurMission from "../OurMission";
@@ -33,6 +32,9 @@ import LocationSearch from "../prediction/LocationSearch";
 
 function LandingFunction() {
 
+    const value = {
+        to:'/prediction-requirement'
+    };
     const { t } = useTranslation();
     return <div>
         <DagdiNavbar />
@@ -41,15 +43,6 @@ function LandingFunction() {
                 {/* shape Hero */}
                 <section className="section section-lg section-shaped pb-250">
                     <div className="shape shape-style-1 shape-primary">
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
                     </div>
                     <Container className="py-lg-md d-flex">
                         <div className="col px-0">
@@ -63,7 +56,7 @@ function LandingFunction() {
                                         {t("Landing page description")}
 
                                     </p>
-                                    <LocationSearch />
+                                    <LocationSearch {...value}/>
                                 </Col>
                             </Row>
                             <Row className={"mt-5"}>
@@ -263,20 +256,16 @@ function LandingFunction() {
                                 </div>
                                 <h3>{t("Our customers")} </h3>
                                 <p className="lead">
-                                    {t("Our customers details1")}
+                                    Our customer are farmers and other government agencies which are trying to increase income of farmers.
                                 </p>
                                 <p>
-                                    {t("Our customers details2")}
-                                </p>
-                                <p>
-                                    {t("Our customers details3")}
+                                    Our users gets benefits of the latest market trends and superb prediction to get maximum benefit.
                                 </p>
                                 <a
                                     className="font-weight-bold text-warning mt-5"
                                     href="#pablo"
                                     onClick={e => e.preventDefault()}
                                 >
-                                    {t("A beautiful UI Kit for impactful websites")}
                                 </a>
                             </div>
                         </Col>
@@ -385,39 +374,9 @@ function LandingFunction() {
                 </div>
             </section>
 
-            <section className="section section-lg pt-0">
-                <Container>
-                    <Card className="bg-gradient-primary shadow-lg mt-sm border-0">
-                        <div className="p-5">
-                            <Row className="align-items-center">
-                                <Col lg="8">
-                                    <h3 className="text-white">
-                                        {t("We made website building easier for you")}
-                                    </h3>
-                                    <p className="lead text-white mt-3">
-                                        {t("We made website building easier for you details")}
-                                    </p>
-                                </Col>
-                                <Col className="ml-lg-auto" lg="3">
-                                    <Button
-                                        block
-                                        className="btn-white"
-                                        color="default"
-                                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                                        size="lg"
-                                    >
-                                        Download React
-                                </Button>
-                                </Col>
-                            </Row>
-                        </div>
-                    </Card>
-                </Container>
-            </section>
             <Marketing />
 
             <ContactUs />
-            <Download />
         </main>
         <CardsFooter />
     </div>;
