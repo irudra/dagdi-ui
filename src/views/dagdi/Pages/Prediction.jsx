@@ -117,9 +117,7 @@ class Prediction extends React.Component {
        <DagdiNavbar/>
     <section className="section section-shaped ">
           <div className="shape shape-style-1 shape-primary">
-            <span />
-            <span />
-            
+
           </div>
         </section>
         <PredictionFucntion />
