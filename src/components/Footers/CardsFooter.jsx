@@ -27,7 +27,7 @@ class CardsFooter extends React.Component {
         <footer className="footer has-cards">
           <Container>
             <Row className="align-items-center justify-content-md-between">
-              <Col md="6">
+              <Col md="4">
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
@@ -39,7 +39,7 @@ class CardsFooter extends React.Component {
                   .
                 </div>
               </Col>
-              <Col md="6">
+              <Col md="8">
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink

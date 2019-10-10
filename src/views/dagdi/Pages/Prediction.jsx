@@ -11,7 +11,7 @@ function PredictionFucntion() {
   return  <Container fluid>
     {/* Table */} 
     <Row>
-      <div className="col mr-xl ml-xl">
+      <div className="col">
         <Card className="shadow ">
           <CardHeader className="border-0 text-center">
             <h3 className="mb-0 display-3">{t("Crop Result")}</h3>

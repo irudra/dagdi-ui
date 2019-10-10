@@ -12,7 +12,7 @@ function MainSection() {
                 <img
                     alt="..."
                     className="img-fluid floating"
-                    src={require("assets/img/theme/promo-1.png")}
+                    src={require("assets/img/theme/farmer-158432_1280.png")}
                 />
             </Col>
             <Col className="order-md-1" md="6">

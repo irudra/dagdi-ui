@@ -22,13 +22,19 @@ import {Button, Col, Container, Row, UncontrolledCarousel} from "reactstrap";
 
 const items = [
   {
-    src: require("assets/img/theme/img-1-1200x1000.jpg"),
+    src: require("assets/img/theme/agricultural-machine-1918989_1280.jpg"),
     altText: "",
     caption: "",
     header: ""
   },
   {
-    src: require("assets/img/theme/img-2-1200x1000.jpg"),
+    src: require("assets/img/theme/10152378-3x2-xlarge.jpg"),
+    altText: "",
+    caption: "",
+    header: ""
+  },
+  {
+    src: require("assets/img/theme/cereal-1866559_1280.jpg"),
     altText: "",
     caption: "",
     header: ""
@@ -45,10 +51,10 @@ function CropsCarousel() {
           <Container className="py-md">
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
-                <h1 className="text-white font-weight-light">
+                <h3 className="text-white font-weight-light">
                   {t("Why we matter")}
-                </h1>
-                <p className="lead text-white mt-4">
+                </h3>
+                <p className=" text-white mt-4">
                   {t("Why we matter description")}
                 </p>
                 <Button
