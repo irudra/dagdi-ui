@@ -38,9 +38,9 @@ function MainSection() {
                 <span className="btn-inner--text">{t("Dagdi prediction System")}</span>
               </Link>
             </div>
-            <div class="mt-5">
-              <small class="text-white font-weight-bold mb-0 mr-2">*proudly created by</small>
-              <a href="https://github.com/appBuddyin" class="text-light">
+            <div className="mt-5">
+              <small className="text-white font-weight-bold mb-0 mr-2">*proudly created by</small>
+              <a href="https://github.com/appBuddyin" className="text-light">
                 <img src={require("assets/img/brand/appbuddylogo.png")} style={{ height: "28px" }} alt={"Appbuddy Technology"}/>
               </a>
             </div>
@@ -61,16 +61,6 @@ class Hero extends React.Component {
           <section className="section section-lg section-hero section-shaped">
             {/* Background circles */}
             <div className="shape shape-style-1 shape-primary">
-              <span className="span-150" />
-              <span className="span-50" />
-              <span className="span-50" />
-              <span className="span-75" />
-              <span className="span-100" />
-              <span className="span-75" />
-              <span className="span-50" />
-              <span className="span-100" />
-              <span className="span-50" />
-              <span className="span-100" />
             </div>
             <MainSection/>
             {/* SVG separator */}

@@ -73,9 +73,12 @@ class Preferences extends Component {
  
 
   render() {
+      const value = {
+          to:'/prediction-result'
+      };
     return (
       <>
-      <LocationSearch/>
+      <LocationSearch {...value}/>
      <PreferencesFunction/> 
      </>
     );

@@ -92,17 +92,6 @@ class CropProfile extends React.Component {
                                                     {crop.user_location}
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6">
-                                                <div className="h6">
-                                                    <h3>
-                                                    {crop.user_profession}
-                                                    </h3>
-                                                </div>
-                                                <div className="h6 font-weight-300">
-                                                    <i className="ni education_hat mr-2" />
-                                                    {crop.user_education}
-                                                </div>
-                                            </div>
                                         </Row>
 
                                     </div>

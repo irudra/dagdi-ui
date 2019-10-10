@@ -41,12 +41,6 @@ function CropsCarousel() {
     
         <section className="section section-shaped">
           <div className="shape shape-style-1 shape-default">
-            <span/>
-            <span/>
-            <span/>
-            <span/>
-            <span/>
-            <span/>
           </div>
           <Container className="py-md">
             <Row className="justify-content-between align-items-center">
