@@ -21,25 +21,23 @@ function PredictionFucntion() {
               <tr>
                 <th scope="col">{t("Images")}</th>
                 <th class="text-center" scope="col">{t("Crop Description")}</th>
-                <th scope="col">{t("Action")}</th>
               </tr>
             </thead>
             <tbody>
               {myData.map((obj) => {
                 return <tr>
                   <td class="w-25">
-                    <img
+                    <Link to={"cropProfile-page/"+obj.id}><img
                       alt={obj.name}
-                      className="img-fluid img-thumbnail"
+                      className="img-fluid rounded shadow"
                       src={obj.image}
-                    />
+                    /></Link>
                   </td>
                   <td>
                     {obj.details}
-                  </td>
-                  <td>
-                    <tr><Link to={"cropProfile-page/"+obj.id}><button type="button" class="btn btn-primary">Details</button></Link></tr>
-                    
+                    <br/>
+                    <br/>
+                    <Link align-items-right to={"cropProfile-page/"+obj.id}>Show Details</Link>
                   </td>
                 </tr>
               })}
