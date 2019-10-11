@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import myData from "views/dagdi/Pages/crops.json";
 // reactstrap components
 import {
+    Button,
     Card,
     CardFooter,
     CardHeader,
@@ -28,7 +29,14 @@ function PredictionFucntion() {
                     <CardHeader className="border-0 text-center">
                         <Row>
                             <Col className="col-lg-1"><Link
-                                to={"/prediction-requirement"}>{t("Search again")}</Link></Col>
+                                to={"/prediction-requirement"}><Button
+                                className="mr-4"
+                                color="default"
+                                href="#pablo"
+                                size="sm"
+                            >
+                                {t("Search again")}
+                            </Button></Link></Col>
                             <Col className="col-lg-11"><h3 className="mb-0 display-3">{t("Crop Result")}</h3></Col>
                         </Row>
                     </CardHeader>

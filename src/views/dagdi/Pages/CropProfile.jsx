@@ -1,8 +1,10 @@
 import React from "react";
-import { Col, Button, Row, Container, Card } from "reactstrap";
+import {Col, Button, Row, Container, Card} from "reactstrap";
 import myData from './cropsMap.json';
 import CardsFooter from "components/Footers/CardsFooter.jsx";
 import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
+import {Link} from "react-router-dom";
+
 class CropProfile extends React.Component {
 
 
@@ -10,7 +12,7 @@ class CropProfile extends React.Component {
         const crop = myData[this.props.match.params.id];
         return (
             <>
-                <DagdiNavbar />
+                <DagdiNavbar/>
                 <main className="profile-page" ref="main">
                     <section className="section section-shaped ">
                         <div className="shape shape-style-1 shape-primary">
@@ -37,15 +39,15 @@ class CropProfile extends React.Component {
                                             lg="4"
                                         >
                                             <div className="card-profile-actions py-4 mt-lg-0">
-                                                <Button
+                                                <Link
+                                                    to={"/prediction-requirement"}><Button
                                                     className="mr-4"
-                                                    color="info"
+                                                    color="default"
                                                     href="#pablo"
-                                                    onClick={e => e.preventDefault()}
                                                     size="sm"
                                                 >
-                                                    Connect
-                        </Button>
+                                                    Search again
+                                                </Button></Link>
                                                 <Button
                                                     className="float-right"
                                                     color="default"
@@ -54,7 +56,7 @@ class CropProfile extends React.Component {
                                                     size="sm"
                                                 >
                                                     Message
-                        </Button>
+                                                </Button>
                                             </div>
                                         </Col>
                                         <Col className="order-lg-1" lg="4">
@@ -68,7 +70,6 @@ class CropProfile extends React.Component {
                                                     <span className="heading">{crop.varieties}</span>
                                                     <span className="description">Varieties </span>
                                                 </div>
-
 
 
                                                 <div>
@@ -88,7 +89,7 @@ class CropProfile extends React.Component {
 
                                                 </h3>
                                                 <div className="h6 font-weight-300">
-                                                    <i className="ni location_pin mr-2" />
+                                                    <i className="ni location_pin mr-2"/>
                                                     {crop.user_location}
                                                 </div>
                                             </div>
@@ -103,7 +104,7 @@ class CropProfile extends React.Component {
                                                 </p>
                                                 <a href="#pablo" onClick={e => e.preventDefault()}>
                                                     Show more
-                        </a>
+                                                </a>
                                             </Col>
                                         </Row>
                                     </div>
@@ -111,7 +112,7 @@ class CropProfile extends React.Component {
                             </Card>
                         </Container>
                     </section>
-                    <CardsFooter />
+                    <CardsFooter/>
                 </main>
             </>
 
