@@ -8,13 +8,19 @@ import LocationSearch from "./LocationSearch";
 
 const items = [
     {
-        src: require("assets/img/theme/img-1-1200x1000.jpg"),
+        src: require("assets/img/theme/agricultural-machine-1918989_1280.jpg"),
         altText: "",
         caption: "",
         header: ""
     },
     {
         src: require("assets/img/theme/img-2-1200x1000.jpg"),
+        altText: "",
+        caption: "",
+        header: ""
+    },
+    {
+        src: require("assets/img/theme/morning-2477957_1280.jpg"),
         altText: "",
         caption: "",
         header: ""
@@ -33,10 +39,10 @@ function PredictionCarouselFunction() {
         </Col>
         <Col className="mb-5 mb-lg-0" lg="8">
             <Container>
-            <h1 className="text-dark font-weight-light">
+            <h3 className="text-dark font-weight-light">
                 {t("Why we matter")}
-</h1>
-            <p className="lead text-Bls mt-4">
+</h3>
+            <p className=" text-Bls mt-2">
             {t("Why we matter description")}  
 </p>
             <Button

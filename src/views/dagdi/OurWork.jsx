@@ -11,7 +11,7 @@ function OurWorkFunction() {
                         <Card className="bg-default shadow border-0">
                             <CardImg
                                 alt="..."
-                                src={require("assets/img/theme/img-1-1200x1000.jpg")}
+                                src={require("assets/img/theme/webimage.jpg")}
                                 top
                             />
                             <blockquote className="card-blockquote">
