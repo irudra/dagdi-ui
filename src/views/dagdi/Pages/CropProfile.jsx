@@ -39,24 +39,33 @@ class CropProfile extends React.Component {
                                             lg="4"
                                         >
                                             <div className="card-profile-actions py-4 mt-lg-0">
+                                                <Button
+                                                    className="mr-4"
+                                                    color="info"
+                                                    href="#pablo"
+                                                    size="sm"
+                                                    onClick={e => e.preventDefault()}
+                                                >
+                                                    Buy
+                                                </Button>
+                                                <Button
+                                                    className="mr-4"
+                                                    color="info"
+                                                    href="#pablo"
+                                                    size="sm"
+                                                    onClick={e => e.preventDefault()}
+                                                >
+                                                    Sell
+                                                </Button>
                                                 <Link
                                                     to={"/prediction-requirement"}><Button
-                                                    className="mr-4"
+                                                    className="float-right"
                                                     color="default"
                                                     href="#pablo"
                                                     size="sm"
                                                 >
                                                     Search again
                                                 </Button></Link>
-                                                <Button
-                                                    className="float-right"
-                                                    color="default"
-                                                    href="#pablo"
-                                                    onClick={e => e.preventDefault()}
-                                                    size="sm"
-                                                >
-                                                    Message
-                                                </Button>
                                             </div>
                                         </Col>
                                         <Col className="order-lg-1" lg="4">
