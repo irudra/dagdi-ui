@@ -15,50 +15,8 @@ function OurTeamFunction() {
             </Col>
         </Row>
         <Row>
-            <Col className="mb-5 mb-lg-0" lg="4" md="6">
-                <div className="px-4">
-                    <img
-                        alt="..."
-                        className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                        src={require("assets/img/theme/Nigam.jpg")}
-                        style={{width: "200px", height: "200px"}}
-                    />
-                    <div className="pt-4 text-center">
-                        <h5 className="title">
-                            <span className="d-block mb-1">{t("Nigam Chauhan")}</span>
-                            <small className="h6 text-muted">Web Developer</small>
-                        </h5>
-                        <div className="mt-3">
-                            <Button
-                                className="btn-icon-only rounded-circle"
-                                color="warning"
-                                href="#pablo"
-                                onClick={e => e.preventDefault()}
-                            >
-                                <i className="fa fa-twitter"/>
-                            </Button>
-                            <Button
-                                className="btn-icon-only rounded-circle ml-1"
-                                color="warning"
-                                href="#pablo"
-                                onClick={e => e.preventDefault()}
-                            >
-                                <i className="fa fa-facebook"/>
-                            </Button>
-                            <Button
-                                className="btn-icon-only rounded-circle ml-1"
-                                color="warning"
-                                href="#pablo"
-                                onClick={e => e.preventDefault()}
-                            >
-                                <i className="fa fa-dribbble"/>
-                            </Button>
-                        </div>
-                    </div>
-                </div>
-            </Col>
-            <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                <div className="px-4">
+            <Col className="mb-5 mb-lg-0" lg="6" md="6">
+                <div className="px-6">
                     <img
                         alt="..."
                         className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
@@ -99,8 +57,8 @@ function OurTeamFunction() {
                     </div>
                 </div>
             </Col>
-            <Col className="mb-5 mb-lg-0" lg="4" md="6">
-                <div className="px-4">
+            <Col className="mb-5 mb-lg-0" lg="6" md="6">
+                <div className="px-6">
                     <img
                         alt="..."
                         className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
