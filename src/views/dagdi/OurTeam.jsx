@@ -68,7 +68,7 @@ function OurTeamFunction() {
                     <div className="pt-4 text-center">
                         <h5 className="title">
                             <span className="d-block mb-1">{t("Hemant Gaur")}</span>
-                            <small className="h6 text-muted">Founder / Senior Developer</small>
+                            <small className="h6 text-muted">Senior Developer</small>
                         </h5>
                         <div className="mt-3">
                             <Button
