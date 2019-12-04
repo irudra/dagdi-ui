@@ -44,7 +44,6 @@ class Index extends React.Component {
           <OurMission/>
           <CropsCarousel />
           <OurWork />
-          <OurTeam />
           <Marketing />
           <ContactUs />
         </main>
