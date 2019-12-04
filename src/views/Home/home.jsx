@@ -23,7 +23,6 @@ import CardsFooter from "components/Footers/CardsFooter.jsx";
 import Hero from "./Hero.jsx";
 import OurMission from "../dagdi/OurMission.jsx";
 import OurWork from "../dagdi/OurWork.jsx";
-import OurTeam from "../dagdi/OurTeam.jsx";
 import Marketing from "../dagdi/Marketing.jsx";
 import ContactUs from "../dagdi/ContactUs.jsx";
 import CropsCarousel from "../dagdi/CropsCarousel";
