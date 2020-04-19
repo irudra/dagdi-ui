@@ -1,15 +1,24 @@
 import React from "react";
 import {Col, Button, Row, Container, Card} from "reactstrap";
-import myData from './cropsMap.json';
 import CardsFooter from "components/Footers/CardsFooter.jsx";
 import DagdiNavbar from "components/Navbars/DagdiNavbar.jsx";
 import {Link} from "react-router-dom";
 
 class CropProfile extends React.Component {
-
+    state = {
+        crops: []
+    }
+    componentDidMount() {
+        fetch('https://boiling-ocean-40232.herokuapp.com/crop/getCropByUid/'+this.props.match.params.id)
+            .then(res => res.json())
+            .then((data) => {
+                this.setState({ crops: data })
+            })
+            .catch(console.log)
+    }
 
     render() {
-        const crop = myData[this.props.match.params.id];
+        const crop = this.state.crops;
         return (
             <>
                 <DagdiNavbar/>
@@ -72,7 +81,7 @@ class CropProfile extends React.Component {
 
                                             <div className="card-profile-stats d-flex justify-content-center">
                                                 <div>
-                                                    <span className="heading">{crop.current_price}</span>
+                                                    <span className="heading">{crop.currentPrice}</span>
                                                     <span className="description">Current Price </span>
                                                 </div>
                                                 <div>
@@ -82,7 +91,7 @@ class CropProfile extends React.Component {
 
 
                                                 <div>
-                                                    <span className="heading">{crop.annual_production}</span>
+                                                    <span className="heading">{crop.annualProduction}</span>
                                                     <span className="description">Annual Production</span>
                                                 </div>
                                             </div>
@@ -94,12 +103,12 @@ class CropProfile extends React.Component {
                                         <Row>
                                             <div className="col-lg-6">
                                                 <h3>
-                                                    {crop.user_name}
+                                                    {crop.cropName}
 
                                                 </h3>
                                                 <div className="h6 font-weight-300">
                                                     <i className="ni location_pin mr-2"/>
-                                                    {crop.user_location}
+
                                                 </div>
                                             </div>
                                         </Row>
@@ -109,7 +118,7 @@ class CropProfile extends React.Component {
                                         <Row className="justify-content-center">
                                             <Col lg="9">
                                                 <p>
-                                                    {crop.crop_description}
+                                                    {crop.cropDescription}
                                                 </p>
                                                 <a href="#pablo" onClick={e => e.preventDefault()}>
                                                     Show more

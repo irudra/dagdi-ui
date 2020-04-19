@@ -1,8 +1,6 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 import {Link} from "react-router-dom";
-import myData from "views/dagdi/Pages/crops.json";
-// reactstrap components
 import {
     Button,
     Card,
@@ -18,10 +16,31 @@ import {
 import DagdiNavbar from "components/Navbars/DagdiNavbar";
 import CardsFooter from "components/Footers/CardsFooter";
 import {Col} from "react-bootstrap";
+import axios from "axios";
 
 function PredictionFucntion() {
+    const initialUserState = {
+        user: {},
+        loading: true,
+    }
+
+    const [user, setUser] = useState(initialUserState)
+
+    useEffect(() => {
+        //example for the html call
+        const getUser = async () => {
+            //The url can be created dynamically
+            const { data } = await axios(`https://boiling-ocean-40232.herokuapp.com/crop/getAllCrops`)
+
+            setUser(data)
+        }
+
+        getUser()
+    }, [])
     const {t} = useTranslation();
-    return <Container fluid>
+    return user.loading ?
+        <div>Loading...</div>
+     :  <Container fluid>
         {/* Table */}
         <Row>
             <div className="col">
@@ -48,20 +67,20 @@ function PredictionFucntion() {
                         </tr>
                         </thead>
                         <tbody>
-                        {myData.map((obj) => {
+                        {user.map((obj) => {
                             return <tr>
                                 <td class="w-25">
-                                    <Link to={"cropProfile-page/" + obj.id}><img
-                                        alt={obj.name}
+                                    <Link to={"cropProfile-page/" + obj.cropUid}><img
+                                        alt={obj.cropName}
                                         className="img-fluid rounded shadow"
                                         src={obj.image}
                                     /></Link>
                                 </td>
                                 <td>
-                                    {obj.details}
+                                    {obj.cropDescription}
                                     <br/>
                                     <br/>
-                                    <Link align-items-right to={"cropProfile-page/" + obj.id}>Show Details</Link>
+                                    <Link align-items-right to={"cropProfile-page/" + obj.cropUid}>Show Details</Link>
                                 </td>
                             </tr>
                         })}
