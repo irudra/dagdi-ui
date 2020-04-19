@@ -17,20 +17,8 @@
 */
 /*eslint-disable*/
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
-import {
-  Button,
-  Card,
-  CardImg,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip
-} from "reactstrap";
+import { Col, Container, Nav, NavItem, NavLink, Row } from "reactstrap";
 
 class CardsFooter extends React.Component {
   render() {
@@ -39,11 +27,11 @@ class CardsFooter extends React.Component {
         <footer className="footer has-cards">
           <Container>
             <Row className="align-items-center justify-content-md-between">
-              <Col md="6">
+              <Col md="4">
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="https://github.com/appBuddyin"
                     target="_blank"
                   >
                     Appbuddy Technology
@@ -51,7 +39,7 @@ class CardsFooter extends React.Component {
                   .
                 </div>
               </Col>
-              <Col md="6">
+              <Col md="8">
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
